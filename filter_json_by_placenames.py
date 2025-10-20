@@ -10,7 +10,7 @@ country_names = {country['name'].lower() for country in gc.get_countries().value
 country_names.update({country.name.lower() for country in pycountry.countries})
 
 #  input list
-json_path="/home/phe.gov.uk/jason.beard/Desktop/projects/salmon_map/cleaned_data.json"
+json_path="./cleaned_data.json"
 
 with open (json_path) as json_file:
     serovar_dictionary = json.load(json_file)
