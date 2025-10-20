@@ -1,17 +1,49 @@
 import json
 from geopy import distance
+import argparse
+from geopy.geocoders import Nominatim
+import sys
 
-def get_user_input():
-    print("Please enter latitude in degrees Eorth:")
-    lat = float(input())
-    print("Please enter longitude in degrees East:")
-    lon = float(input())
-    return lat, lon
+def argument_passing():
 
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "--place_name"
+    )
+
+    parser.add_argument(
+        "--lat"
+    )
+    
+    parser.add_argument(
+        "--long"
+    )
+
+    args = parser.parse_args()
+
+    if args.place_name is None and (args.lat is None or args.long is None):
+            print("You must either give both latitude and longitude (--lat & --long) or a place name (--place_name).")
+            sys.exit(1)
+
+    return args
 
 def compare_distances(comparison_coordinate, input_coordinate):
     dist = distance.distance(comparison_coordinate, input_coordinate).km # This package assumes that altitude is equal
     return dist
+
+def lookup_name(geolocator, search_name):
+
+    print("Making api call to get coordiantes for the given place name")
+    try:
+        location = geolocator.geocode(search_name, timeout=10)
+    except:
+        print(f"couldn't find {search_name}")
+        exit 
+
+    coordinate = (location.latitude, location.longitude)
+
+    return location
 
 def get_closest_serovar(input_coordinate):
     coordinate_map="./name_to_coordinates.json"
@@ -33,9 +65,14 @@ def get_closest_serovar(input_coordinate):
     return closest_name, closest_distance, cloest_coordinates
 
 def main():
-    lat, lon = get_user_input()
-    coordinate = (lat, lon)
-    print(f"Input coordinates: {coordinate}")
+    geolocator = Nominatim(user_agent="geo_classifier")
+
+    args = argument_passing()
+
+    if args.place_name is not None: coordinate = lookup_name(geolocator, args.place_name)
+    else: coordinate = (args.lat, args.long)
+
+    print(f"Continuing with the coordinates: {coordinate}")
 
     closest_name, closest_distance,cloest_coordinates = get_closest_serovar(coordinate)
     print(f"\nClosest location: {closest_name} ({closest_distance:.2f} km away)")
