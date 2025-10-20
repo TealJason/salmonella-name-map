@@ -1,7 +1,7 @@
 import json
 
-data_path = "/home/phe.gov.uk/jason.beard/Desktop/projects/salmon_map/found_places.tsv"
-cleaned_data_path = "/home/phe.gov.uk/jason.beard/Desktop/projects/salmon_map/name_to_coordinates.json"
+data_path = "./found_places.tsv"
+cleaned_data_path = "./name_to_coordinates.json"
 
 serovar_dictionary = {}
 
