@@ -72,10 +72,11 @@ def main():
     if args.place_name is not None: coordinate = lookup_name(geolocator, args.place_name)
     else: coordinate = (args.lat, args.long)
 
-    print(f"Continuing with the coordinates: {coordinate}")
 
     closest_name, closest_distance,cloest_coordinates = get_closest_serovar(coordinate)
-    print(f"\nClosest location: {closest_name} ({closest_distance:.2f} km away)")
+    
+    print(f"\nCoordinates used as an input: {coordinate}")
+    print(f"Closest location: {closest_name} ({closest_distance:.2f} km away)")
     print(f"Coordinates for this match are {cloest_coordinates}")
 
 if __name__ == "__main__":
