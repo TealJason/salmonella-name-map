@@ -7,8 +7,9 @@ To make things easier salmonella stains are traditionally given a shorthand name
 In this reposoitory I will be adding means to find the closest serovar to you!
 At the current time its written in python using the data taken from here for the serovar names -> https://www.researchgate.net/publication/310673247_Antigenic_formulae_of_the_salmonella_servovars_Who_collab
 And using geopy to pull data from openstreetmap to match the serovar names to places with coordinates.
+
 I believe there are still some false positives in the data in that the place name coordinate set might not 100% link up to where the serovar was named for.
 I think most are correct but some tedious validation still needs to be done
 
-Currently it is VERY basic you can enter in a set of coordinates and it will get cloeset salmonella location to you
-In the furture I will go about having it showing you on the map where the cloeset salmonella location is.
+Currently it is very basic you can enter in a set of coordinates or a place names and it will get cloeset salmonella location to you.
+In the furture I would like to get to a point where you can simply click on a map click find and it will show you on the map where the cloeset salmonella location is.
