@@ -43,7 +43,7 @@ def lookup_name(geolocator, search_name):
 
     coordinate = (location.latitude, location.longitude)
 
-    return location
+    return coordinate
 
 def get_closest_serovar(input_coordinate):
     coordinate_map="./name_to_coordinates.json"
