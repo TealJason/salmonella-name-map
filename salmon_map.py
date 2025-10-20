@@ -14,7 +14,7 @@ def compare_distances(comparison_coordinate, input_coordinate):
     return dist
 
 def get_closest_serovar(input_coordinate):
-    coordinate_map="/home/phe.gov.uk/jason.beard/Desktop/projects/salmon_map/name_to_coordinates.json"
+    coordinate_map="./name_to_coordinates.json"
     with open(coordinate_map, "r") as f:
         serovar_dict = json.load(f)
         
