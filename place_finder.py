@@ -7,7 +7,7 @@ import os
 geolocator = Nominatim(user_agent="geo_classifier")
 
 # Input JSON file
-json_path = "/home/phe.gov.uk/jason.beard/Desktop/projects/salmon_map/cleaned_data.json"
+json_path = "./cleaned_data.json"
 
 with open(json_path) as json_file:
     serovar_dictionary = json.load(json_file)
@@ -15,7 +15,7 @@ with open(json_path) as json_file:
 
 def write_to_file(name_list, sort_type):
     """Writes results to a file, creating directories if needed."""
-    path = f"/home/phe.gov.uk/jason.beard/Desktop/projects/salmon_map/{sort_type}.txt"
+    path = f"./{sort_type}.txt"
     os.makedirs(os.path.dirname(path), exist_ok=True)
     
     with open(path, "w") as f:
@@ -48,7 +48,7 @@ def search_for_locations(serovar_dictionary):
             time.sleep(1)
         
         except Exception as e:
-            print(f"⚠️ Error for {name}: {e}")
+            print(f"Error for {name}: {e}")
             nonlocation_list.append(name)
             continue
 
