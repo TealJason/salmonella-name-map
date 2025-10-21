@@ -4,6 +4,8 @@ import argparse
 from geopy.geocoders import Nominatim
 import sys
 
+from mapquest_api import make_mapbox_image
+
 def argument_passing():
 
     parser = argparse.ArgumentParser()
@@ -19,7 +21,16 @@ def argument_passing():
     parser.add_argument(
         "--long"
     )
-
+    
+    parser.add_argument(
+        "--get_image",
+        action = "store_true"
+    )
+    parser.add_argument(
+        "--coordinate",
+        default="./serovar_name_to_coordinates.json"
+    )
+    
     args = parser.parse_args()
 
     if args.place_name is None and (args.lat is None or args.long is None):
@@ -45,11 +56,13 @@ def lookup_name(geolocator, search_name):
 
     return coordinate
 
-def get_closest_serovar(input_coordinate):
-    coordinate_map="./name_to_coordinates.json"
-    with open(coordinate_map, "r") as f:
-        serovar_dict = json.load(f)
-        
+def get_closest_serovar(input_coordinate,coordinate_map):
+    try:
+        with open(coordinate_map, "r") as f:
+            serovar_dict = json.load(f)
+    except:
+           IOError("Could not find the coordinate json")     
+           
     closest_distance = float("inf")
     closest_name = None
 
@@ -69,13 +82,15 @@ def main():
 
     args = argument_passing()
 
-    if args.place_name is not None: coordinate = lookup_name(geolocator, args.place_name)
-    else: coordinate = (args.lat, args.long)
-
-
-    closest_name, closest_distance,cloest_coordinates = get_closest_serovar(coordinate)
+    if args.place_name is not None: input_coordinate = lookup_name(geolocator, args.place_name)
+    else: input_coordinate = (args.lat, args.long)
     
-    print(f"\nCoordinates used as an input: {coordinate}")
+    closest_name, closest_distance,cloest_coordinates = get_closest_serovar(input_coordinate,args.coordinate)
+    
+    print("\nGet image enabled fetching static map image of your cloest serovar")
+    if args.get_image: make_mapbox_image(cloest_coordinates)
+    
+    print(f"\nCoordinates used as an input: {input_coordinate}")
     print(f"Closest location: {closest_name} ({closest_distance:.2f} km away)")
     print(f"Coordinates for this match are {cloest_coordinates}")
 
