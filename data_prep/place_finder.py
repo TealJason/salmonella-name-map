@@ -6,13 +6,6 @@ import os
 # Initialize geolocator
 geolocator = Nominatim(user_agent="geo_classifier")
 
-# Input JSON file
-json_path = "./cleaned_data.json"
-
-with open(json_path) as json_file:
-    serovar_dictionary = json.load(json_file)
-
-
 def write_to_file(name_list, sort_type):
     """Writes results to a file, creating directories if needed."""
     path = f"./{sort_type}.txt"
@@ -53,12 +46,18 @@ def search_for_locations(serovar_dictionary):
             continue
 
     # Write results to files
-    write_to_file(location_list, "sorted")
-    write_to_file(nonlocation_list, "unsorted")
+    write_to_file(location_list, "supplement_places_found")
+    write_to_file(nonlocation_list, "supplement_places_not_found")
 
     print(f"{locations} locations found")
     print(f"{noncations} not found")
     print("Results saved to 'sorted.txt' and 'unsorted.txt'")
+
+# Input JSON file
+json_path = "./supplement_name_to_serovar.json"
+
+with open(json_path) as json_file:
+    serovar_dictionary = json.load(json_file)
 
 
 # Run the search

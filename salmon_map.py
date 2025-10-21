@@ -94,7 +94,7 @@ def main():
     print(f"\nCoordinates used as an input: {input_coordinate}")
     print(f"Coordinates for this match are {cloest_coordinates}")
 
-    print(f"\nThe Closest Salmonella serovar to the location you gave is! {closest_name} at {closest_distance:.2f} km away")
+    print(f"\nThe Closest Salmonella serovar to the location you gave is... Salmonella {closest_name} at {closest_distance:.2f} km away")
 
 if __name__ == "__main__":
     main()
