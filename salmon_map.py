@@ -82,6 +82,22 @@ def get_closest_serovar(input_coordinate,coordinate_map):
 
     return closest_name, closest_distance, cloest_coordinates
 
+def get_antigens_for_serovar(closest_name):
+    try:
+        with open ("serovar_name_antigen.json","r") as f:
+            serovar_anitgen_dict = json.load(f)
+    except IOError as e:
+        print("Couldn't open the name to antigen json")
+        sys.exit(1)
+    
+    filtered_dict = serovar_anitgen_dict[closest_name]
+
+    h_antigen = filtered_dict.get("H-Antigen")
+    o_antigen_p1 = filtered_dict.get("O-AntigenP1")
+    o_antigen_p2 = filtered_dict.get("O-AntigenP2")   
+    
+    return  h_antigen, o_antigen_p1, o_antigen_p2
+
 def main():
     geolocator = Nominatim(user_agent="geo_classifier")
 
@@ -91,6 +107,7 @@ def main():
     else:  input_coordinate = lookup_name(geolocator, args.place_name)
     
     closest_name, closest_distance,cloest_coordinates = get_closest_serovar(input_coordinate,args.coordinate)
+    h_antigen, o_antigen_p1, o_antigen_p2 = get_antigens_for_serovar(closest_name)
     
     if args.get_image: 
         print("\nGet image enabled fetching static map image of your cloest serovar")
@@ -100,6 +117,7 @@ def main():
     print(f"Coordinates for this match are {cloest_coordinates}")
 
     print(f"\nThe Closest Salmonella serovar to the location you gave is... Salmonella {closest_name} at {closest_distance:.2f} km away")
-
+    print(f"Salmonella {closest_name} has the phenotype: {h_antigen}:{o_antigen_p1}:{o_antigen_p2}")
+    
 if __name__ == "__main__":
     main()
