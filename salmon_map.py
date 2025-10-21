@@ -87,12 +87,14 @@ def main():
     
     closest_name, closest_distance,cloest_coordinates = get_closest_serovar(input_coordinate,args.coordinate)
     
-    print("\nGet image enabled fetching static map image of your cloest serovar")
-    if args.get_image: make_mapbox_image(cloest_coordinates)
+    if args.get_image: 
+        print("\nGet image enabled fetching static map image of your cloest serovar")
+        make_mapbox_image(cloest_coordinates)
     
     print(f"\nCoordinates used as an input: {input_coordinate}")
-    print(f"Closest location: {closest_name} ({closest_distance:.2f} km away)")
     print(f"Coordinates for this match are {cloest_coordinates}")
+
+    print(f"\nThe Closest Salmonella serovar to the location you gave is! {closest_name} at {closest_distance:.2f} km away")
 
 if __name__ == "__main__":
     main()
