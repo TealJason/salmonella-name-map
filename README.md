@@ -8,6 +8,8 @@ In this reposoitory I will be adding means to find the closest serovar to you!
 At the current time its written in python using the data taken from here for the serovar names -> https://www.researchgate.net/publication/310673247_Antigenic_formulae_of_the_salmonella_servovars_Who_collab
 And using geopy to pull data from openstreetmap to match the serovar names to places with coordinates.
 
+Mapbox is currently being used to generate an overhead image of the closest salmonella serovar
+
 I believe there are still some false positives in the data in that the place name coordinate set might not 100% link up to where the serovar was named for.
 I think most are correct but some tedious validation still needs to be done
 
