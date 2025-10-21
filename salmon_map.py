@@ -11,24 +11,29 @@ def argument_passing():
     parser = argparse.ArgumentParser()
 
     parser.add_argument(
-        "--place_name"
+        "--place_name",
+        help="Name of the place you want to search for, latitude and longitude will take presenence if given"
     )
 
     parser.add_argument(
-        "--lat"
+        "--lat",
+        help="Degrees north you want to search from"
     )
     
     parser.add_argument(
-        "--long"
+        "--long",
+        help="Degrees east you want to search from"
     )
     
     parser.add_argument(
         "--get_image",
-        action = "store_true"
+        action = "store_true",
+        help="Uses mapbox to generate an image of the closest serovar location"
     )
     parser.add_argument(
         "--coordinate",
-        default="./serovar_name_to_coordinates.json"
+        default="./serovar_name_to_coordinates.json",
+        help="path to the json file mapping serovar names to coordinates"
     )
     
     args = parser.parse_args()
@@ -82,8 +87,8 @@ def main():
 
     args = argument_passing()
 
-    if args.place_name is not None: input_coordinate = lookup_name(geolocator, args.place_name)
-    else: input_coordinate = (args.lat, args.long)
+    if args.lat and args.lat is not None: input_coordinate = (args.lat, args.long)
+    else:  input_coordinate = lookup_name(geolocator, args.place_name)
     
     closest_name, closest_distance,cloest_coordinates = get_closest_serovar(input_coordinate,args.coordinate)
     
