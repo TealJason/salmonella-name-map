@@ -46,11 +46,11 @@ def compare_distances(comparison_coordinate, input_coordinate):
 def lookup_name(geolocator, search_name):
 
     print("Making api call to get coordiantes for the given place name")
-    try:
-        location = geolocator.geocode(search_name, timeout=10)
-    except:
+    location = geolocator.geocode(search_name, timeout=10)
+  
+    if location is None:
         print(f"couldn't find {search_name}")
-        exit 
+        sys.exit(1)
 
     coordinate = (location.latitude, location.longitude)
 
