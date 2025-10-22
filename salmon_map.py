@@ -124,7 +124,7 @@ def main():
     print(f"Coordinates for this match are {cloest_coordinates}")
 
     print(f"\nThe Closest Salmonella serovar to the location you gave is... Salmonella {closest_name} at {closest_distance:.2f} km away")
-    print(f"Salmonella {closest_name} has the phenotype: {h_antigen}:{o_antigen_p1}:{o_antigen_p2}")
+    print(f"Salmonella {closest_name} has the antigenic properties: {h_antigen}:{o_antigen_p1}:{o_antigen_p2}")
     
 if __name__ == "__main__":
     main()
