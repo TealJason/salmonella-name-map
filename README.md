@@ -17,14 +17,14 @@ Currently it is very basic you can enter in a set of coordinates or a place name
 In the furture I would like to get to a point where you can simply click on a map click find and it will show you on the map where the cloeset salmonella location is.
 
 ## Example usages
-Look for the cloest servoar to the city Baden-Baden
+Look for the cloest servoar to the city Baden-Baden  
 ```python3 salmon_map.py --place_name Baden-Baden``` 
 
 Look for the closet servoar to a set of input coordinates and enable a verbose printout to the console for the distance to all salmonella serovars  
 ```python3 salmon_map.py --lat 30.213 --long -2.5 -v```
 
-Look for the cloest serovar to monaco and generate an image of the cloest city (requires api key)
-```python3 salmon_map.py --place_name monaco --get_image```
+Look for the cloest serovar to monaco and generate a static image of the cloest city (requires api key)  
+```python3 salmon_map.py --place_name singapore --get_image```
 
 ### All argument
 ```
