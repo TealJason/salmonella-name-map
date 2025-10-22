@@ -36,10 +36,17 @@ def argument_passing():
         help="path to the json file mapping serovar names to coordinates"
     )
     
+    parser.add_argument(
+        "--verbose",
+        "-v",
+        action="store_true",
+        help="allows for printing verbose logs to the terminal"
+    )
+    
     args = parser.parse_args()
 
     if args.place_name is None and (args.lat is None or args.long is None):
-            print("You must either give both latitude and longitude (--lat & --long) or a place name (--place_name).")
+            print("You must either give both latitude and longitude (e.g --lat 48.761 --long 8.239) or a place name (e.g --place_name Baden-Baden).")
             sys.exit(1)
 
     return args
@@ -61,7 +68,7 @@ def lookup_name(geolocator, search_name):
 
     return coordinate
 
-def get_closest_serovar(input_coordinate,coordinate_map):
+def get_closest_serovar(input_coordinate,coordinate_map,verbose_mode):
     try:
         with open(coordinate_map, "r") as f:
             serovar_dict = json.load(f)
@@ -74,7 +81,7 @@ def get_closest_serovar(input_coordinate,coordinate_map):
     for name, coordinate_tuple in serovar_dict.items():
         dist = compare_distances(coordinate_tuple, input_coordinate)
         
-        print(f"Comparing to {name}: {dist:.2f} km")
+        if verbose_mode: print(f"Comparing to {name}: {dist:.2f} km")
         if dist < closest_distance:
             closest_distance = dist
             closest_name = name
@@ -106,7 +113,7 @@ def main():
     if args.lat and args.lat is not None: input_coordinate = (args.lat, args.long)
     else:  input_coordinate = lookup_name(geolocator, args.place_name)
     
-    closest_name, closest_distance,cloest_coordinates = get_closest_serovar(input_coordinate,args.coordinate)
+    closest_name, closest_distance,cloest_coordinates = get_closest_serovar(input_coordinate,args.coordinate,args.verbose)
     h_antigen, o_antigen_p1, o_antigen_p2 = get_antigens_for_serovar(closest_name)
     
     if args.get_image: 
