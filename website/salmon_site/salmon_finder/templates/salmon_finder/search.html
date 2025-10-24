@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Find Closest Serovar</title>
+</head>
+<body>
+  <h1>Salmonella Serovar Finder</h1>
+
+  <form method="POST" action="{% url 'serovar_finder' %}">
+    {% csrf_token %}
+    <label>Latitude:</label>
+    <input type="text" name="lat" placeholder="e.g. 51.5072"><br><br>
+
+    <label>Longitude:</label>
+    <input type="text" name="long" placeholder="e.g. -0.1276"><br><br>
+
+    <label>Place name:</label>
+    <input type="text" name="place_name" placeholder="e.g. London"><br><br>
+
+    <button type="submit">Search</button>
+  </form>
+
+  {% if result %}
+    <hr>
+    <h3>Result:</h3>
+    <textarea rows="10" cols="60" readonly>
+Input Coordinates: {{ result.input_coordinates }}
+Closest Serovar: {{ result.closest_serovar }}
+Distance (km): {{ result.distance_km }}
+Match Coordinates: {{ result.match_coordinates }}
+
+Antigenic formula:
+  H: {{ result.antigens.H }}
+  O1: {{ result.antigens.O1 }}
+  O2: {{ result.antigens.O2 }}
+    </textarea>
+  {% endif %}
+
+  <p><a href="{% url 'index' %}">Back to Home</a></p>
+</body>
+</html>

@@ -31,7 +31,7 @@ def argument_passing():
         help="Uses mapbox to generate an image of the closest serovar location"
     )
     parser.add_argument(
-        "--coordinate",
+        "--coordinate_path",
         default="./serovar_name_to_coordinates.json",
         help="path to the json file mapping serovar names to coordinates"
     )
@@ -113,7 +113,7 @@ def main():
     if args.lat and args.lat is not None: input_coordinate = (args.lat, args.long)
     else:  input_coordinate = lookup_name(geolocator, args.place_name)
     
-    closest_name, closest_distance,cloest_coordinates = get_closest_serovar(input_coordinate,args.coordinate,args.verbose)
+    closest_name, closest_distance,cloest_coordinates = get_closest_serovar(input_coordinate,args.coordinate_path,args.verbose)
     h_antigen, o_antigen_p1, o_antigen_p2 = get_antigens_for_serovar(closest_name)
     
     if args.get_image: 
