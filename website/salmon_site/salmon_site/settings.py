@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'salmon_finder'
+    'salmon_finder',
+    "antigen_finder"
 ]
 
 MIDDLEWARE = [

@@ -1,11 +1,3 @@
-import os
-
-import json
-from geopy import distance
-import argparse
-from geopy.geocoders import Nominatim
-import sys
-
 # Create your views here.
 import os
 import json

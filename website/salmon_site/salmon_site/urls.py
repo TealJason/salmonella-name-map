@@ -16,8 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("salmon_finder/", include("salmon_finder.urls"))
+    path("", views.index, name="index"),  # landing page
+    path("salmon_finder/", include("salmon_finder.urls")),
+    path("antigen_finder", include("antigen_finder.urls"))
 ]
