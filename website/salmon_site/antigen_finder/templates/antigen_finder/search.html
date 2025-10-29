@@ -7,10 +7,10 @@
 <body>
   <h1>Salmonella Serovar Finder</h1>
 
-  <form method="POST" action="{% url 'serovar_finder' %}">
+  <form method="POST" action="{% url 'antigen_finder' %}">
     {% csrf_token %}
     <label>Serovar Name:</label>
-    <input type="text" name="Serovar Name" placeholder="e.g. Chester"><br><br>
+    <input type="text" name="serovar_name" placeholder="e.g. Chester"><br><br>
 Chester
     <button type="submit">Search</button>
   </form>

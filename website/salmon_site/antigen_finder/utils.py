@@ -3,12 +3,12 @@ import sys
 import json
 import argparse 
 
-def get_antigens_for_serovar(name):
+def get_antigens_for_serovar(name):  
     try:
-        with open("full_name_to_serovar.json", "r") as f:
+        with open("/home/phe.gov.uk/jason.beard/Desktop/projects/salmon_map/project/salmonella-name-map/website/salmon_site/antigen_finder/data/serovar_name_antigen.json", "r") as f:
             serovar_antigen_dict = json.load(f)
     except IOError:
-        print("Couldn't open the name:antigen JSON file.")
+        print("Couldn't open the JSON file.")
         sys.exit(1)
     
     if name not in serovar_antigen_dict:
@@ -22,7 +22,3 @@ def get_antigens_for_serovar(name):
     o_antigen_p2 = filtered_dict.get("O-AntigenP2", "unknown")   
     
     return name, h_antigen, o_antigen_p1, o_antigen_p2
-
-def run_lookup_logic(name):
-    get_antigens_for_serovar(name.lower())
-

@@ -1,6 +1,6 @@
 
 from django.shortcuts import render
-from .utils import run_lookup_logic
+from .utils import get_antigens_for_serovar
 import os
 
 # Create your views here.
@@ -11,14 +11,9 @@ def find_antigen_formula(request):
         return render(request, "antigen_finder/search.html")
 
     if request.method == "POST":
-        o_antigen = request.POST.get("lat")
-        h_antigen_p1 = request.POST.get("long")
-        h_antigen_p2 = request.POST.get("place_name")
+        serovar_name = request.POST.get("serovar_name")
 
-        lat = float(lat) if lat else None
-        long = float(long) if long else None
-
-        result = run_lookup_logic(o_antigen, h_antigen_p1, h_antigen_p2, verbose=True)
+        result = get_antigens_for_serovar(serovar_name)
 
         # Pass result data to the same search template
         status = 200 if "error" not in result else 400
