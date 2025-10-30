@@ -3,6 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <title>Find Closest Serovar</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;       /* centers horizontally */
+      justify-content: center;   /* centers vertically */
+      min-height: 100vh;         /* makes body full height */
+      font-family: Arial, sans-serif;
+    }
+
+    form, textarea, h1, h3, p {
+      text-align: center;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    input, button {
+      padding: 5px 10px;
+      margin: 5px 0;
+    }
+
+    hr {
+      width: 60%;
+      margin: 20px auto;
+    }
+  </style>
 </head>
 <body>
   <h1>Salmonella Serovar Finder</h1>
@@ -10,26 +38,32 @@
   <form method="POST" action="{% url 'antigen_finder' %}">
     {% csrf_token %}
     <label>Serovar Name:</label>
-    <input type="text" name="serovar_name" placeholder="e.g. Chester"><br><br>
-
+    <input type="text" name="serovar_name" placeholder="e.g. Chester"><br>
     <button type="submit">Search</button>
   </form>
 
-  {% if result %}
-    <hr>
-    <h3>Result:</h3>
-    <textarea rows="10" cols="60" readonly>
-         
-              Antigenic formula:
-  -----------------------------------
-  Serovar Name:     | {{ result.serovar_name }}
-  -----------------------------------
-  H-Antigen:        | {{ result.h_antigen }}
-  -----------------------------------
-  Phase1 O-antigen: | {{ result.o_AntigenPhase1 }}
-  -----------------------------------
-  Phase2 O-antigen: | {{ result.o_AntigenPhase2 }}
-    </textarea>
+  {% if searched %}
+    {% if result %}
+      <hr>
+      <h3>Result:</h3>
+      <textarea rows="10" cols="60" readonly>
+Antigenic formula:
+-----------------------------------
+Serovar Name:     | {{ result.serovar_name }}
+-----------------------------------
+H-Antigen:        | {{ result.h_antigen }}
+-----------------------------------
+Phase1 O-antigen: | {{ result.o_AntigenPhase1 }}
+-----------------------------------
+Phase2 O-antigen: | {{ result.o_AntigenPhase2 }}
+      </textarea>
+    {% else %}
+      <hr>
+      <h3>Result:</h3>
+      <textarea rows="10" cols="60" readonly>
+Unable to find serovar in database
+      </textarea>
+    {% endif %}
   {% endif %}
 
   <p><a href="{% url 'index' %}">Back to Home</a></p>

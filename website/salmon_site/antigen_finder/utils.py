@@ -16,10 +16,15 @@ def get_antigens_for_serovar(name):
 
     if name not in serovar_antigen_dict:
         print(f"Serovar '{name}' not found in the JSON file.")
-        sys.exit(1)
+        empty = {}
+        return empty 
 
-    filtered_dict = serovar_antigen_dict[name]
-
+    try:
+        filtered_dict = serovar_antigen_dict[name]
+    except:
+        print("Debug unable to find serovar in the json file")
+   
+    
     h_antigen = filtered_dict.get("H-Antigen", "unknown")
     o_antigen_p1 = filtered_dict.get("O-AntigenP1", "unknown")
     o_antigen_p2 = filtered_dict.get("O-AntigenP2", "unknown")   
