@@ -11,7 +11,7 @@
     {% csrf_token %}
     <label>Serovar Name:</label>
     <input type="text" name="serovar_name" placeholder="e.g. Chester"><br><br>
-Chester
+
     <button type="submit">Search</button>
   </form>
 
@@ -20,11 +20,15 @@ Chester
     <h3>Result:</h3>
     <textarea rows="10" cols="60" readonly>
          
-Antigenic formula:
-  Name {{ result.name }}
-  H:   {{ result.h_antigen }}
-  O1:  {{ result.o_antigen_p1 }}
-  O2:  {{ result.o_antigen_p2 }}
+              Antigenic formula:
+  -----------------------------------
+  Serovar Name:     | {{ result.serovar_name }}
+  -----------------------------------
+  H-Antigen:        | {{ result.h_antigen }}
+  -----------------------------------
+  Phase1 O-antigen: | {{ result.o_AntigenPhase1 }}
+  -----------------------------------
+  Phase2 O-antigen: | {{ result.o_AntigenPhase2 }}
     </textarea>
   {% endif %}
 
