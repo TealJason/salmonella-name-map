@@ -50,7 +50,7 @@ body {
     }
 </style>
 <body>
-  <h1 style="font-size:65px;position:absolute;top:5px">Salmonella Serovar Finder</h1>
+  <h1 style="font-size:65px;margin-top:5px">Salmonella Serovar Finder</h1>
 <form method="POST" action="{% url 'serovar_finder' %}">
 {% csrf_token %}
 
@@ -98,6 +98,6 @@ Antigenic formula:
     <img src="data:image/png;base64,{{ mapbox_image|b64encode }}" alt="Map of location">
 {% endif %}
 
-  <p style="position:absolute;bottom:30px;"><a href="{% url 'index' %}">Back to Home</a></p>
+  <p style="margin-bottom:30px"><a href="{% url 'index' %}">Back to Home</a></p>
 </body>
 </html>
