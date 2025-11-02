@@ -72,6 +72,7 @@ def get_closest_serovar(input_coordinate, coordinate_map, verbose_mode=False):
 
 def get_antigens_for_serovar(closest_name):
     """Return antigen info for a given serovar name."""
+    closest_name = closest_name.capitalize()
 
     coordinate_path = os.path.join(os.path.dirname(__file__), "data", "serovar_name_antigen.json")
     try:
@@ -83,11 +84,10 @@ def get_antigens_for_serovar(closest_name):
     filtered_dict = serovar_antigen_dict.get(closest_name)
     if not filtered_dict:
         return None, None, None
-
     return (
-        filtered_dict.get("H-Antigen"),
-        filtered_dict.get("O-AntigenP1"),
-        filtered_dict.get("O-AntigenP2"),
+        filtered_dict.get("O-Antigen"),
+        filtered_dict.get("H-AntigenP1"),
+        filtered_dict.get("H-AntigenP2"),
     )
 
 
@@ -117,7 +117,7 @@ def run_lookup_logic(lat, long, place_name,get_image, verbose=False):
         return {"error": "No serovar data available."}
 
     # Get antigenic info
-    h_antigen, o_antigen_p1, o_antigen_p2 = get_antigens_for_serovar(closest_name)
+    o_antigen, h_antigen_p1, h_antigen_p2 = get_antigens_for_serovar(closest_name)
 
     if get_image:
         mapbox_image = make_mapbox_image(closest_coordinates)
@@ -131,8 +131,8 @@ def run_lookup_logic(lat, long, place_name,get_image, verbose=False):
         "distance_km": round(closest_distance, 2),
         "match_coordinates": closest_coordinates,
         "antigens": {
-            "H": h_antigen,
-            "O1": o_antigen_p1,
-            "O2": o_antigen_p2,
+            "O": o_antigen,
+            "H1": h_antigen_p1,
+            "H2": h_antigen_p2,
         },
     }, mapbox_image
