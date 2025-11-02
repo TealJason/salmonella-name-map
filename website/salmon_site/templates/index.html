@@ -13,10 +13,6 @@ body {
       font-family: Arial, sans-serif;
     }
 
-    form, textarea, h1, h3, p {
-      text-align: center;
-    }
-
     textarea {
       resize: none;
     }
@@ -27,21 +23,23 @@ body {
     }
 
     hr {
-      width: 60%;
+      width: 10000000000000;
       margin: 20px auto;
     }
 
 </style>
 <body>
-    <h1>Welcome to the Salmonella Serovar Finder</h1>
-    <p>Use this tool to find the closest serovar to a given location.</p>
+    <h1 style="position:absolute;top: 10px;font-size: 50px;">Welcome to the Salmonella Serovar Finder</h1>
 
+    <p style="font-size:25px;">Use this tool to find the closest serovar to a given location.</p>
     <a href="{% url 'serovar_finder' %}">
         <button>Go to Serovar Finder</button>
     </a>
+
     <br>
     <br>
-    <p>Use this tool to find the antigenic formula given a serovar name.</p>
+
+    <p style="font-size:25px;">Use this tool to find the antigenic formula given a serovar name.</p>
     <a href="{% url 'antigen_finder' %}">
         <button>Go to Antigen formula finder</button>
     </a>
