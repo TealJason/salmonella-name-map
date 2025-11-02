@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Find Closest Serovar</title>
+  <title>Antigenic formula lookup</title>
   <style>
+
     body {
       display: flex;
       flex-direction: column;
@@ -13,12 +15,16 @@
       font-family: Arial, sans-serif;
     }
 
-    form, textarea, h1, h3, p {
+    form, h3, p, h1{
       text-align: center;
     }
 
     textarea {
+      text-align: center;
       resize: none;
+      outline: none;
+      border: none;
+      background: transparent;
     }
 
     input, button {
@@ -32,40 +38,39 @@
     }
   </style>
 </head>
+
 <body>
-  <h1>Salmonella Serovar Finder</h1>
+  
+  <h1 style="font-size: 60px;position:absolute;top:30px">Salmonella Antigenic Formula Lookup</h1>
 
   <form method="POST" action="{% url 'antigen_finder' %}">
     {% csrf_token %}
-    <label>Serovar Name:</label>
-    <input type="text" name="serovar_name" placeholder="e.g. Chester"><br>
-    <button type="submit">Search</button>
+    <input type="text" name="serovar_name" placeholder="Enter Serovar e.g.'Chester' "style="font-size:40px;"><br>
+    <button type="submit" style="font-size:40px;">Search</button>
   </form>
 
   {% if searched %}
     {% if result %}
       <hr>
-      <h3>Result:</h3>
-      <textarea rows="10" cols="60" readonly>
-Antigenic formula:
+      <textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
+Serovar Name: {{ result.serovar_name }}
 -----------------------------------
-Serovar Name:     | {{ result.serovar_name }}
+H-Antigen: {{ result.h_antigen }}
 -----------------------------------
-H-Antigen:        | {{ result.h_antigen }}
+Phase 1 O-Antigen: {{ result.o_AntigenPhase1 }}
 -----------------------------------
-Phase1 O-antigen: | {{ result.o_AntigenPhase1 }}
------------------------------------
-Phase2 O-antigen: | {{ result.o_AntigenPhase2 }}
+Phase 2 O-Antigen: {{ result.o_AntigenPhase2 }}
       </textarea>
     {% else %}
       <hr>
-      <h3>Result:</h3>
-      <textarea rows="10" cols="60" readonly>
+
+      <textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
 Unable to find serovar in database
       </textarea>
+
     {% endif %}
   {% endif %}
 
-  <p><a href="{% url 'index' %}">Back to Home</a></p>
+  <p style="position:absolute;bottom:20px"><a href="{% url 'index' %}">Back to Home</a></p>
 </body>
 </html>

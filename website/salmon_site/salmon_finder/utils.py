@@ -4,6 +4,28 @@ import json
 from geopy import distance
 from geopy.geocoders import Nominatim
 import sys
+import subprocess
+from django.conf import settings
+import requests
+
+
+def make_mapbox_image(coordinate):
+    api_key_path = os.path.join(os.path.dirname(__file__), "data", ".api_map_box.key")
+    try:
+        with open(api_key_path, 'r') as f:
+            token = f.readline().strip()
+    except IOError as e:
+        print(f"Couldn't get the API key: {e}")
+        raise
+
+    lat, long = coordinate
+
+    url = f"https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/{long},{lat},10,0,0/600x600?access_token={token}&attribution=false"
+
+    r = requests.get(url)
+    r.raise_for_status()
+
+    return r.content
 
 def compare_distances(comparison_coordinate, input_coordinate):
     """Return distance (km) between two coordinate pairs."""
@@ -69,7 +91,7 @@ def get_antigens_for_serovar(closest_name):
     )
 
 
-def run_lookup_logic(lat, long, place_name, verbose=False):
+def run_lookup_logic(lat, long, place_name,get_image, verbose=False):
     """Main logic function — returns dict of results instead of printing."""
     geolocator = Nominatim(user_agent="geo_classifier")
 
@@ -97,7 +119,12 @@ def run_lookup_logic(lat, long, place_name, verbose=False):
     # Get antigenic info
     h_antigen, o_antigen_p1, o_antigen_p2 = get_antigens_for_serovar(closest_name)
 
-    # Return results as structured JSON
+    if get_image:
+        mapbox_image = make_mapbox_image(closest_coordinates)
+    else:
+        mapbox_image = None
+        
+    # Return results 
     return {
         "input_coordinates": input_coordinate,
         "closest_serovar": closest_name,
@@ -108,4 +135,4 @@ def run_lookup_logic(lat, long, place_name, verbose=False):
             "O1": o_antigen_p1,
             "O2": o_antigen_p2,
         },
-    }
+    }, mapbox_image

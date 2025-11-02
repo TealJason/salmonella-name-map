@@ -15,7 +15,10 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'serovar_finder', 'media')
 
+# settings.py
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -26,8 +29,7 @@ SECRET_KEY = 'django-insecure-^+_!mk9)t_3ey+y@92ta#hk^75@a+ku6l599_5c)#n8at$t==)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ["localhost","127.0.0.1","192.168.0.173"]
 
 # Application definition
 

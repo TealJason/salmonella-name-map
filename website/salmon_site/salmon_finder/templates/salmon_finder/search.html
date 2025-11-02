@@ -1,30 +1,86 @@
 <!DOCTYPE html>
+{% load image_filters %}
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Find Closest Serovar</title>
 </head>
-<body>
-  <h1>Salmonella Serovar Finder</h1>
+<style>
+body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;       /* centers horizontally */
+      justify-content: center;   /* centers vertically */
+      min-height: 100vh;         /* makes body full height */
+      font-family: Arial, sans-serif;
+    }
 
-  <form method="POST" action="{% url 'serovar_finder' %}">
-    {% csrf_token %}
+    form, textarea, h3, p {
+      text-align: center;
+    }
+
+    textarea {
+      text-align: center;
+      resize: none;
+      outline: none;
+      border: none;
+      background: transparent;
+    }
+
+    .form-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .form-row label {
+      width: 110px; /* fix width for all labels */
+      text-align: right; /*  align text to the right */
+      margin-right: 10px; /* space between label and input */
+    }
+
+    .form-row input {
+      flex: 1; /* input takes remaining space */
+    }
+
+    hr {
+      width: 60%;
+      margin: 20px auto;
+    }
+</style>
+<body>
+  <h1 style="font-size:65px;position:absolute;top:5px">Salmonella Serovar Finder</h1>
+<form method="POST" action="{% url 'serovar_finder' %}">
+{% csrf_token %}
+
+<div class="form-row"> 
     <label>Latitude:</label>
     <input type="text" name="lat" placeholder="e.g. 51.5072"><br><br>
+</div>
 
+<div class="form-row">
     <label>Longitude:</label>
     <input type="text" name="long" placeholder="e.g. -0.1276"><br><br>
+</div>
 
+<div class="form-row">
     <label>Place name:</label>
     <input type="text" name="place_name" placeholder="e.g. London"><br><br>
+</div>
 
-    <button type="submit">Search</button>
+  <label>Serach for the closest location named after a Salmonella serovar!
+  </label>
+  <br>
+  <button type="submit"style="width:200px;height:30px">Search</button>
+  <br>
+  <br>
+  <label>Tick to get an image of the location:</label> <input type="checkbox" name="get_image"></button>
   </form>
 
   {% if result %}
     <hr>
-    <h3>Result:</h3>
-    <textarea rows="10" cols="60" readonly>
+    <textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
 Input Coordinates: {{ result.input_coordinates }}
 Closest Serovar: {{ result.closest_serovar }}
 Distance (km): {{ result.distance_km }}
@@ -37,6 +93,11 @@ Antigenic formula:
     </textarea>
   {% endif %}
 
-  <p><a href="{% url 'index' %}">Back to Home</a></p>
+{% if mapbox_image %}
+    <h3>Location Map:</h3>
+    <img src="data:image/png;base64,{{ mapbox_image|b64encode }}" alt="Map of location">
+{% endif %}
+
+  <p style="position:absolute;bottom:30px;"><a href="{% url 'index' %}">Back to Home</a></p>
 </body>
 </html>
