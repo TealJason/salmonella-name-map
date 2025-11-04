@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Antigenic formula to serovar lookup</title>
+  <style>
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;       /* centers horizontally */
+      justify-content: center;   /* centers vertically */
+      min-height: 100vh;         /* makes body full height */
+      font-family: Arial, sans-serif;
+    }
+
+    form, h3, p, h1{
+      text-align: center;
+    }
+
+    textarea {
+      text-align: center;
+      resize: none;
+      outline: none;
+      border: none;
+      background: transparent;
+    }
+
+    input, button {
+      padding: 5px 10px;
+      margin: 5px 0;
+    }
+
+    hr {
+      width: 60%;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <h1 style="font-size: 60px;position:absolute;top:30px">Salmonella Antigen to Serovar Lookup</h1>
+
+  <form method="POST" action="{% url 'reverse_antigen_lookup' %}">
+    {% csrf_token %}
+    <input type="text" name="antigenic_formula" placeholder="Enter Formula e.g.'18:z4,z23:z64' "style="font-size:40px;"><br>
+    <button type="submit" style="font-size:40px;">Search</button>
+  </form>
+
+  {% if searched %}
+    {% if result %}
+      <br>
+      <hr>
+      <textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
+The given formula matches serovar: {{ result.serovar_name }}
+      </textarea>
+    {% else %}
+      <hr>
+      <textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
+Unable to find serovar based on the given formula sorry! 
+Please check the formula is correct, use : to deliminate O:Hp1:Hp2 antigens, using - where a phase isn't present, and squares brackets, [4], for optional antigens.
+ParatyphiB for example can be found wiht 1,4,[5],12:b:1,2
+      </textarea>
+    {% endif %}
+  {% endif %}
+
+  <p style="position:absolute;bottom:20px"><a href="{% url 'index' %}">Back to Home</a></p>
+</body>
+</html>

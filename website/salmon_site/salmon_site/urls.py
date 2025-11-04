@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", views.index, name="index"),  # landing page
     path("salmon_finder/", include("salmon_finder.urls")),
-    path("antigen_finder/", include("antigen_finder.urls"))
+    path("antigen_finder/", include("antigen_finder.urls")),
+     path("reverse_antigen_lookup/", include("reverse_antigen_lookup.urls"))
 ]
