@@ -6,7 +6,7 @@ from geopy.geocoders import Nominatim
 import sys
 import subprocess
 from django.conf import settings
-import requests
+import requests # type: ignore
 
 
 def make_mapbox_image(coordinate):

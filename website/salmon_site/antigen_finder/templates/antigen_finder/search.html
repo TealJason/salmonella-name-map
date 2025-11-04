@@ -36,11 +36,52 @@
       width: 60%;
       margin: 20px auto;
     }
+
+    /* Navigation bar styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #004d40;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav button {
+            background-color: #00796b;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        nav button:hover {
+            background-color: #004d40;
+        }
+
   </style>
 </head>
 
 <body>
   
+<nav>
+  <a href="{% url 'serovar_finder' %}"><button>Serovar Finder</button></a>
+  <a href="{% url 'antigen_finder' %}"><button>Antigen Formula Finder</button></a>
+  <a href="{% url 'reverse_antigen_lookup' %}"><button>Formula to Antigen Lookup</button></a>
+</nav>
+
+
   <h1 style="font-size: 60px;position:absolute;top:30px">Salmonella Antigenic Formula Lookup</h1>
 
   <form method="POST" action="{% url 'antigen_finder' %}">

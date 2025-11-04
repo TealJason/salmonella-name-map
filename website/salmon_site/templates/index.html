@@ -2,39 +2,66 @@
 <html>
 <head>
     <title>Salmonella Serovar Finder</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Navigation bar styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #004d40;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav button {
+            background-color: #00796b;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        nav button:hover {
+            background-color: #004d40;
+        }
+
+        /* Page content */
+        .content {
+            margin-top: 100px; /* adds space below the fixed navbar */
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+    </style>
 </head>
-<style>
-body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;       /* centers horizontally */
-      justify-content: center;   /* centers vertically */
-      min-height: 100vh;         /* makes body full height */
-      font-family: Arial, sans-serif;
-    }
-
-    textarea {
-      resize: none;
-    }
-
-    input, button {
-      padding: 5px 10px;
-      margin: 5px 0;
-    }
-
-    hr {
-      width: 10000000000000;
-      margin: 20px auto;
-    }
-
-</style>
 <body>
-    <h1 style="position:absolute;top: 10px;font-size: 50px;">Welcome to the Salmonella Serovar Finder</h1>
+    <nav>
+        <a href="{% url 'serovar_finder' %}"><button>Serovar Finder</button></a>
+        <a href="{% url 'antigen_finder' %}"><button>Antigen Formula Finder</button></a>
+        <a href="{% url 'reverse_antigen_lookup' %}"><button>Formula to Antigen Lookup</button></a>
+    </nav>
 
-    <a href="{% url 'serovar_finder' %}"><button>Go to Serovar Finder</button>
-    </a><a href="{% url 'antigen_finder' %}"><button>Go to Antigen formula finder</button>
-    </a><a href="{% url 'reverse_antigen_lookup' %}"><button>Go to Formula to anitgen lookup tool</button> </a>
+    <div class="content">
+        <h1>Welcome to the Salmonella Serovar Finder</h1>
+        <!-- more page content here -->
+    </div>
 </body>
-
-
 </html>
