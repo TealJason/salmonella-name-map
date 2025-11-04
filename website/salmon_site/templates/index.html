@@ -31,25 +31,10 @@ body {
 <body>
     <h1 style="position:absolute;top: 10px;font-size: 50px;">Welcome to the Salmonella Serovar Finder</h1>
 
-    <p style="font-size:25px;">Use this tool to find the closest serovar to a given location.</p>
-    <a href="{% url 'serovar_finder' %}">
-        <button>Go to Serovar Finder</button>
-    </a>
-
-    <br>
-    <br>
-
-    <p style="font-size:25px;">Use this tool to find the antigenic formula given a serovar name.</p>
-    <a href="{% url 'antigen_finder' %}">
-        <button>Go to Antigen formula finder</button>
-    </a>
-
-    <br>
-    <br>
-
-    <p style="font-size:25px;">Use this tool to find the antigenic formula given a serovar name.</p>
-    <a href="{% url 'reverse_antigen_lookup' %}">
-        <button>Go to Formula to anitgen lookup tool</button>
-    </a>
+    <a href="{% url 'serovar_finder' %}"><button>Go to Serovar Finder</button>
+    </a><a href="{% url 'antigen_finder' %}"><button>Go to Antigen formula finder</button>
+    </a><a href="{% url 'reverse_antigen_lookup' %}"><button>Go to Formula to anitgen lookup tool</button> </a>
 </body>
+
+
 </html>
