@@ -90,6 +90,22 @@ def get_antigens_for_serovar(closest_name):
         filtered_dict.get("H-AntigenP2"),
     )
 
+def return_empty_dic_for_failures():
+    
+    empty_dict= {
+        "input_coordinates": "Unable to find location",
+        "closest_serovar": "-",
+        "distance_km": "-",
+        "match_coordinates": "-",
+        "antigens": {
+            "O": "-",
+            "H1": "-",
+            "H2": "-",
+        },} 
+    
+    mapbox_image =  None
+    return empty_dict, mapbox_image 
+
 
 def run_lookup_logic(lat, long, place_name,get_image, verbose=False):
     """Main logic function — returns dict of results instead of printing."""
@@ -106,15 +122,21 @@ def run_lookup_logic(lat, long, place_name,get_image, verbose=False):
     elif place_name:
         input_coordinate = lookup_name(geolocator, place_name)
         if not input_coordinate:
-            return {"error": f"Could not find location for '{place_name}'"}
+            empty_dict, dummy_mapbox = return_empty_dic_for_failures()
+            print(f"Could not find location for '{place_name}'")
+            return empty_dict, dummy_mapbox
     else:
-        return {"error": "You must provide either coordinates or a place name."}
+        empty_dict, dummy_mapbox = return_empty_dic_for_failures()
+        print(f"You must provide either coordinates or a place name.")
+        return empty_dict, dummy_mapbox
 
     # Find the closest serovar
     closest_name, closest_distance, closest_coordinates = get_closest_serovar(input_coordinate, coordinate_path, verbose)
 
     if not closest_name:
-        return {"error": "No serovar data available."}
+        empty_dict, dummy_mapbox = return_empty_dic_for_failures()
+        print("No serovar data available.")
+        return empty_dict, dummy_mapbox
 
     # Get antigenic info
     o_antigen, h_antigen_p1, h_antigen_p2 = get_antigens_for_serovar(closest_name)
