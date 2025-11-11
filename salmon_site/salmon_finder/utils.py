@@ -44,7 +44,7 @@ def lookup_name(geolocator, search_name):
     return (location.latitude, location.longitude)
 
 
-def get_closest_serovar(input_coordinate, coordinate_map, verbose_mode=False):
+def get_closest_serovar(input_coordinate, coordinate_map):
     """Find the serovar closest to the given coordinate."""
     try:
         with open(coordinate_map, "r") as f:
@@ -58,9 +58,6 @@ def get_closest_serovar(input_coordinate, coordinate_map, verbose_mode=False):
 
     for name, coordinate_tuple in serovar_dict.items():
         dist = compare_distances(coordinate_tuple, input_coordinate)
-        
-        if verbose_mode is True:
-            print(f"Comparing to {name}: {dist:.2f} km")
 
         if dist < closest_distance:
             closest_distance = dist
@@ -131,7 +128,7 @@ def run_lookup_logic(lat, long, place_name,get_image, verbose=False):
         return empty_dict, dummy_mapbox
 
     # Find the closest serovar
-    closest_name, closest_distance, closest_coordinates = get_closest_serovar(input_coordinate, coordinate_path, verbose)
+    closest_name, closest_distance, closest_coordinates = get_closest_serovar(input_coordinate, coordinate_path)
 
     if not closest_name:
         empty_dict, dummy_mapbox = return_empty_dic_for_failures()
