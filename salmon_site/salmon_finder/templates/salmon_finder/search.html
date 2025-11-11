@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+{% load image_filters %}
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Find Closest Serovar</title>
+</head>
+<style>
+body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;       /* centers horizontally */
+      justify-content: center;   /* centers vertically */
+      min-height: 100vh;         /* makes body full height */
+      font-family: Arial, sans-serif;
+    }
+
+    form, textarea, h3, p {
+      text-align: center;
+    }
+
+    textarea {
+      text-align: center;
+      resize: none;
+      outline: none;
+      border: none;
+      background: transparent;
+    }
+
+    .form-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .form-row label {
+      width: 40px; /* fix width for all labels */
+      text-align: right; /*  align text to the right */
+      margin-right: 150px; /* space between label and input */
+    }
+
+    input, button {
+      padding: 5px 10px;
+      margin: 5px 0;
+    }
+
+    hr {
+      width: 60%;
+      margin: 20px auto;
+    }
+/* Navigation bar styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #004d40;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav button {
+            background-color: #00796b;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        nav button:hover {
+            background-color: #004d40;
+        }
+
+</style>
+<body>
+
+<nav>
+  <a href="{% url 'serovar_finder' %}"><button>Serovar Finder</button></a>
+  <a href="{% url 'antigen_finder' %}"><button>Antigen Formula Finder</button></a>
+  <a href="{% url 'reverse_antigen_lookup' %}"><button>Formula to Antigen Lookup</button></a>
+</nav>
+
+<h1 style="font-size: 60px;position:absolute;top:30px">Salmonella Serovar Finder</h1>
+<label style="font-size: 15px;position:absolute;top:150px">Serach for the closest location named after a Salmonella serovar!</label>
+<br>
+
+<form method="POST" action="{% url 'serovar_finder' %}">
+{% csrf_token %}
+
+<div class="form-row"> 
+    <label style="font-size:30px;">Latitude:</label>
+    <input type="text" name="lat" placeholder="e.g. 51.5072" style="font-size:35px;"><br><br>
+</div>
+
+<div class="form-row">
+    <label style="font-size:30px;">Longitude:</label>
+    <input type="text" name="long" placeholder="e.g. -0.1276"style="font-size:35px;"><br><br>
+</div>
+
+<div class="form-row">
+    <label style="font-size:30px;">Place name:</label>
+    <input type="text" name="place_name" placeholder="e.g. London"style="font-size:35px;"><br><br>
+</div>
+
+  <button type="submit"style="width:400px;height:60px;font-size:30px;">Search</button>
+  <br>
+  <br>
+  <label>Tick to get an image of the location:</label> <input type="checkbox" name="get_image"></button>
+  </form>
+
+  {% if result %}
+    <hr>
+    <textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
+Input Coordinates: {{ result.input_coordinates }}
+Closest Serovar: {{ result.closest_serovar }}
+Distance (km): {{ result.distance_km }}
+Match Coordinates: {{ result.match_coordinates }}
+
+Antigenic formula:
+  O: {{ result.antigens.O }}
+  H1: {{ result.antigens.H1 }}
+  H2: {{ result.antigens.H2 }}
+    </textarea>
+  {% endif %}
+
+{% if mapbox_image %}
+    <h3>Location Map:</h3>
+    <img src="data:image/png;base64,{{ mapbox_image|b64encode }}" alt="Map of location">
+{% endif %}
+
+  <p style="position:absolute;bottom:20px"><a href="{% url 'index' %}">Back to Home</a></p>
+</body>
+</html>

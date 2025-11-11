@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Antigenic formula lookup</title>
+  <style>
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;       /* centers horizontally */
+      justify-content: center;   /* centers vertically */
+      min-height: 100vh;         /* makes body full height */
+      font-family: Arial, sans-serif;
+    }
+
+    form, h3, p, h1{
+      text-align: center;
+    }
+
+    textarea {
+      text-align: center;
+      resize: none;
+      outline: none;
+      border: none;
+      background: transparent;
+    }
+
+    input, button {
+      padding: 5px 10px;
+      margin: 5px 0;
+    }
+
+    hr {
+      width: 60%;
+      margin: 20px auto;
+    }
+
+    /* Navigation bar styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #004d40;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav button {
+            background-color: #00796b;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        nav button:hover {
+            background-color: #004d40;
+        }
+
+  </style>
+</head>
+
+<body>
+  
+<nav>
+  <a href="{% url 'serovar_finder' %}"><button>Serovar Finder</button></a>
+  <a href="{% url 'antigen_finder' %}"><button>Antigen Formula Finder</button></a>
+  <a href="{% url 'reverse_antigen_lookup' %}"><button>Formula to Antigen Lookup</button></a>
+</nav>
+
+
+  <h1 style="font-size: 60px;position:absolute;top:30px">Salmonella Antigenic Formula Lookup</h1>
+
+  <form method="POST" action="{% url 'antigen_finder' %}">
+    {% csrf_token %}
+    <input type="text" name="serovar_name" placeholder="Enter Serovar e.g.'Chester' "style="font-size:40px;"><br>
+    <button type="submit" style="font-size:40px;">Search</button>
+  </form>
+
+  {% if searched %}
+    {% if result %}
+      <hr>
+      <textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
+Serovar Name: {{ result.serovar_name }}
+-----------------------------------
+H-Antigen: {{ result.o_antigen }}
+-----------------------------------
+Phase 1 O-Antigen: {{ result.h_AntigenPhase1 }}
+-----------------------------------
+Phase 2 O-Antigen: {{ result.h_AntigenPhase2 }}
+-----------------------------------
+Full formula: {{ result.antigenic_formula }}
+      </textarea>
+    {% else %}
+      <hr>
+
+      <textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
+Unable to find serovar in database
+      </textarea>
+
+    {% endif %}
+  {% endif %}
+
+  <p style="position:absolute;bottom:20px"><a href="{% url 'index' %}">Back to Home</a></p>
+</body>
+</html>

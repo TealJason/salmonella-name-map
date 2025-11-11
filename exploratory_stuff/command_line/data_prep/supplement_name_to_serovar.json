@@ -1,0 +1,222 @@
+{
+    "Viikkia": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Bruxelles": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "-"
+    },
+    "Forges": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "1,2"
+    },
+    "Trumersee": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Pajala": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Chapuri": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "z6"
+    },
+    "Baltimore": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "l,w"
+    },
+    "Landeskrone": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "-",
+        "O-AntigenP2": "1,6"
+    },
+    "Rosslyn": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,2"
+    },
+    "Kakikoka": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Parabiago": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "l,w"
+    },
+    "Durance": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "z6"
+    },
+    "Santaclara": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,5"
+    },
+    "Capetown": {
+        "H-Antigen": "3,15,34",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,6"
+    },
+    "Fortbend": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Mali": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Bergerac": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Salpetriere": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Wembleypark": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "-"
+    },
+    "Noho": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Ashford": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "z35"
+    },
+    "Elmdon": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,2"
+    },
+    "Torbay": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "1,5"
+    },
+    "Colchester": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,6"
+    },
+    "Sandbanks": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,7"
+    },
+    "Cork": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,2"
+    },
+    "Frimley": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,5"
+    },
+    "Harrow": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,7"
+    },
+    "Goodmayes": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Poole": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,6"
+    },
+    "Kingslynn": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Maybush": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Carshalton": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "g,m,s",
+        "O-AntigenP2": "-"
+    },
+    "Stafford": {
+        "H-Antigen": "6,14,24",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "l,z13,z28"
+    },
+    "Coppettswood": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "l,z13,z28"
+    },
+    "Welwyn": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Zollikerberg": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "1,5"
+    },
+    "Yverdon": {
+        "H-Antigen": "1,4,12",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "1,5"
+    },
+    "Nuorikkala": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Gostenhof": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z6"
+    },
+    "Owerri": {
+        "H-Antigen": "6,14,25",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "1,6"
+    },
+    "Braeswood": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "z6"
+    },
+    "Saintes": {
+        "H-Antigen": "t13,23",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Perrosguirec": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "e,n,z15"
+    }
+}

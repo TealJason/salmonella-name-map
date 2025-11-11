@@ -1,0 +1,7862 @@
+{
+    "Aarhus": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "z64"
+    },
+    "Aba": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Abadina": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Abaetetuba": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Aberdeen": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,2"
+    },
+    "Abidjan": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "l,w"
+    },
+    "Ablogame": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "z6"
+    },
+    "Abobo": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "z6"
+    },
+    "Abony": {
+        "H-Antigen": "1,4,[5],12,[27]",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Abortusequi": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "-",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Abortusovis": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,6"
+    },
+    "Abuja": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "1,5"
+    },
+    "Accra": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Ackwepe": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "-"
+    },
+    "Adabraka": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "[1,7]"
+    },
+    "Adamstown": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Adamstua": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,6"
+    },
+    "Adana": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Adelaide": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "f,g",
+        "O-AntigenP2": "-"
+    },
+    "Adeoyo": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "g,m,[t]",
+        "O-AntigenP2": "-"
+    },
+    "Aderike": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Adime": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Adjame": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,6"
+    },
+    "Aequatoria": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Aesch": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z60",
+        "O-AntigenP2": "1,2"
+    },
+    "Aflao": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Africana": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "r,i",
+        "O-AntigenP2": "l,w"
+    },
+    "Afula": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "f,g,t",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Agama": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,6"
+    },
+    "Agbara": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,6"
+    },
+    "Agbeni": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "g,m,[s],[t]",
+        "O-AntigenP2": "-"
+    },
+    "Agege": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Ago": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Agodi": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "g,t",
+        "O-AntigenP2": "-"
+    },
+    "Agona": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "f,g,s",
+        "O-AntigenP2": "[1,2]"
+    },
+    "Agoueve": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Ahanou": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,7"
+    },
+    "Ahepe": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,6"
+    },
+    "Ahmadi": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Ahoutoue": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,6"
+    },
+    "Ahuza": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Ajiobo": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "-"
+    },
+    "Akanji": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,7"
+    },
+    "Akuafo": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,6"
+    },
+    "Alabama": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Alachua": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "-"
+    },
+    "Alagbon": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,7"
+    },
+    "Alamo": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "g,z51",
+        "O-AntigenP2": "1,5"
+    },
+    "Albany": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Albert": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Albertbanjul": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,5"
+    },
+    "Albertslund": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "1,6"
+    },
+    "Albuquerque": {
+        "H-Antigen": "1,6,14,24",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z6"
+    },
+    "Alexanderplatz": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Alexanderpolder": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "l,w"
+    },
+    "Alfort": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "f,g",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Alger": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,2"
+    },
+    "Alkmaar": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "l,w"
+    },
+    "Allandale": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Allerton": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Alma": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Alminko": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Alpenquai": {
+        "H-Antigen": "6,14",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Altendorf": {
+        "H-Antigen": "4,12,[27]",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,7"
+    },
+    "Altona": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "r,[i]",
+        "O-AntigenP2": "z6"
+    },
+    "Amager": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,2"
+    },
+    "Amba": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "l,z13,z28"
+    },
+    "Amberg": {
+        "H-Antigen": "6,14,24",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,7"
+    },
+    "Amersfoort": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Amherstiana": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,6"
+    },
+    "Amina": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Aminatu": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,2"
+    },
+    "Amounderness": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Amoutive": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Amsterdam": {
+        "H-Antigen": "3,{10}{15}{15,34}",
+        "O-AntigenP1": "g,m,s",
+        "O-AntigenP2": "-"
+    },
+    "Amunigun": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,6"
+    },
+    "Anatum": {
+        "H-Antigen": "3,{10}{15}{15,34}",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,6"
+    },
+    "Anderlecht": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "l,w"
+    },
+    "Anecho": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Anfo": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,2"
+    },
+    "Angers": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "z6"
+    },
+    "Angoda": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Angouleme": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "z6"
+    },
+    "Ank": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Anna": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Annedal": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "r,i",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Antarctica": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "g,z63",
+        "O-AntigenP2": "-"
+    },
+    "Antonio": {
+        "H-Antigen": "57",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "z6"
+    },
+    "Antsalova": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Antwerpen": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Apapa": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Apeyeme": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Aprad": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "-"
+    },
+    "Aqua": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Aragua": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Arapahoe": {
+        "H-Antigen": "6,14",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "1,5"
+    },
+    "Arechavaleta": {
+        "H-Antigen": "4,[5],12",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,7"
+    },
+    "Argenteuil": {
+        "H-Antigen": "1,9,46",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,7"
+    },
+    "Arusha": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Aschersleben": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Ashanti": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Assen": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "[1,5]"
+    },
+    "Assinie": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "z6"
+    },
+    "Astridplein": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,6"
+    },
+    "Asylanta": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,2"
+    },
+    "Atakpame": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,7"
+    },
+    "Atento": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,2"
+    },
+    "Athens": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "g,m,s",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Athinai": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Ati": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,2"
+    },
+    "Augustenborg": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,2"
+    },
+    "Aurelianis": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Austin": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,7"
+    },
+    "Australia": {
+        "H-Antigen": "48",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Avignon": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Avonmouth": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Axim": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "z6"
+    },
+    "Ayinde": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z6"
+    },
+    "Ayton": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "z6"
+    },
+    "Azteca": {
+        "H-Antigen": "4,[5],12,[27]",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Babelsberg": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Babili": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,7"
+    },
+    "Badagry": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Baguida": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "-"
+    },
+    "Baguirmi": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Bahati": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Bahrenfeld": {
+        "H-Antigen": "6,14,[24]",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Baiboukoum": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,7"
+    },
+    "Baildon": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Bakau": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,7"
+    },
+    "Balcones": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "z36",
+        "O-AntigenP2": "-"
+    },
+    "Ball": {
+        "H-Antigen": "1,4,[5],12,[27]",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Bama": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Bamboye": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "l,w"
+    },
+    "Bambylor": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Banalia": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Banana": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "[1,5]"
+    },
+    "Banco": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "r,i",
+        "O-AntigenP2": "1,7"
+    },
+    "Bandia": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "l,w"
+    },
+    "Bandim": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Bangkok": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Bangui": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Banjul": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Bardo": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Bareilly": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Bargny": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Barmbek": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z6"
+    },
+    "Barranquilla": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Barry": {
+        "H-Antigen": "54",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Basingstoke": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Bassa": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Bassadji": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,6"
+    },
+    "Bata": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,7"
+    },
+    "Batonrouge": {
+        "H-Antigen": "57",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Battle": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "1,6"
+    },
+    "Bazenheid": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,2"
+    },
+    "Be": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "[z6]"
+    },
+    "Beaudesert": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,7"
+    },
+    "Bedford": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Belem": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Belfast": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,7"
+    },
+    "Bellevue": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "1,7"
+    },
+    "Benfica": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Benguella": {
+        "H-Antigen": "40",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Benin": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,7"
+    },
+    "Benue": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "l,w"
+    },
+    "Bere": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "z6"
+    },
+    "Bergedorf": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Bergen": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Bergues": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Berkeley": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Berlin": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Berta": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "[f],g,[t]",
+        "O-AntigenP2": "-"
+    },
+    "Bessi": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Bethune": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,7"
+    },
+    "Biafra": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "z6"
+    },
+    "Bida": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,6"
+    },
+    "Bietri": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Bignona": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Bijlmer": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "-"
+    },
+    "Bilu": {
+        "H-Antigen": "1,3,10,19",
+        "O-AntigenP1": "f,g,t",
+        "O-AntigenP2": "1,(2),7"
+    },
+    "Binche": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "l,w"
+    },
+    "Bingerville": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Binningen": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Birkenhead": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,6"
+    },
+    "Birmingham": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "l,w"
+    },
+    "Bispebjerg": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Bissau": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Blancmesnil": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Blegdam": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "g,m,q",
+        "O-AntigenP2": "-"
+    },
+    "Blijdorp": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Blitta": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Blockley": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Bloomsbury": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "g,t",
+        "O-AntigenP2": "1,5"
+    },
+    "Blukwa": {
+        "H-Antigen": "6,14,18",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Bobo": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Bochum": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "l,w"
+    },
+    "Bodjonegoro": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Boecker": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,7"
+    },
+    "Bofflens": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "1,7"
+    },
+    "Bokanjac": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,7"
+    },
+    "Bolama": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Bolombo": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "[z6]"
+    },
+    "Bolton": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Bonames": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,2"
+    },
+    "Bonariensis": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Bonn": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Bootle": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Borbeck": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,6"
+    },
+    "Bordeaux": {
+        "H-Antigen": "52",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Borreze": {
+        "H-Antigen": "54",
+        "O-AntigenP1": "f,g,s",
+        "O-AntigenP2": "-"
+    },
+    "Borromea": {
+        "H-Antigen": "42",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,6"
+    },
+    "Bouake": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "z6"
+    },
+    "Bournemouth": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Bousso": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Bovismorbificans": {
+        "H-Antigen": "6,8,20",
+        "O-AntigenP1": "r,[i]",
+        "O-AntigenP2": "1,5"
+    },
+    "Brackenridge": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Bracknell": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Bradford": {
+        "H-Antigen": "4,12,[27]",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,5"
+    },
+    "Braenderup": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Brancaster": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Brandenburg": {
+        "H-Antigen": "4,[5],12",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Brazil": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Brazos": {
+        "H-Antigen": "6,14,18",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Brazzaville": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,2"
+    },
+    "Breda": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Bredeney": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,7"
+    },
+    "Brefet": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Breukelen": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "l,z13,[z28]",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Brevik": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,[x],z15"
+    },
+    "Brezany": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,6"
+    },
+    "Brijbhumi": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Brikama": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "r,[i]",
+        "O-AntigenP2": "l,w"
+    },
+    "Brindisi": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,6"
+    },
+    "Brisbane": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Bristol": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,7"
+    },
+    "Brive": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "l,w"
+    },
+    "Broc": {
+        "H-Antigen": "42",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Bron": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Bronx": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,6"
+    },
+    "Brooklyn": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Broughton": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "l,w"
+    },
+    "Bruck": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "l,w"
+    },
+    "Bruebach": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Brunei": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Brunflo": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,7"
+    },
+    "Bsilla": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,2"
+    },
+    "Buckeye": {
+        "H-Antigen": "48",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "-"
+    },
+    "Budapest": {
+        "H-Antigen": "1,4,12,[27]",
+        "O-AntigenP1": "g,t",
+        "O-AntigenP2": "-"
+    },
+    "Bukavu": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "1,5"
+    },
+    "Bukuru": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "l,w"
+    },
+    "Bulgaria": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,6"
+    },
+    "Bullbay": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Bulovka": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z44",
+        "O-AntigenP2": "-"
+    },
+    "Burgas": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Burundi": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "-"
+    },
+    "Bury": {
+        "H-Antigen": "4,12,27",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "z6"
+    },
+    "Businga": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Butantan": {
+        "H-Antigen": "3,{10}{15}{15,34}",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Butare": {
+        "H-Antigen": "52",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,6"
+    },
+    "Buzu": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,7"
+    },
+    "Caen": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "l,w"
+    },
+    "Cairina": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "z6"
+    },
+    "Cairns": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Calabar": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "l,w"
+    },
+    "California": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "g,m,t",
+        "O-AntigenP2": "[z67]"
+    },
+    "Camberene": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Camberwell": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,7"
+    },
+    "Campinense": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Canada": {
+        "H-Antigen": "4,12,[27]",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Canary": {
+        "H-Antigen": "40",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,6"
+    },
+    "Cannobio": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "1,5"
+    },
+    "Cannonhill": {
+        "H-Antigen": "1,3,{10},{15},19",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Cannstatt": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Canton": {
+        "H-Antigen": "54",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Caracas": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "g,m,s",
+        "O-AntigenP2": "-"
+    },
+    "Cardoner": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Carmel": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Carnac": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "z6"
+    },
+    "Carno": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "l,w"
+    },
+    "Carpentras": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Carrau": {
+        "H-Antigen": "6,14,[24]",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,7"
+    },
+    "Carswell": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "g,z51",
+        "O-AntigenP2": "-"
+    },
+    "Casablanca": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,7"
+    },
+    "Casamance": {
+        "H-Antigen": "40",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Catalunia": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "1,5"
+    },
+    "Catanzaro": {
+        "H-Antigen": "6,14",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Catumagos": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,5"
+    },
+    "Cayar": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Cerro": {
+        "H-Antigen": "6,14,18",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "[1,5]"
+    },
+    "Ceyco": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "z35"
+    },
+    "Chagoua": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Chailey": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Champaign": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Chandans": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "[e,n,x]"
+    },
+    "Charity": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Charlottenburg": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Chartres": {
+        "H-Antigen": "1,4,12",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "l,w"
+    },
+    "Cheltenham": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Chennai": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z35"
+    },
+    "Chester": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Chicago": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "r,[i]",
+        "O-AntigenP2": "1,5"
+    },
+    "Chichester": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,6"
+    },
+    "Chichiri": {
+        "H-Antigen": "6,14,24",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Chile": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,2"
+    },
+    "Chincol": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "g,m,[s]",
+        "O-AntigenP2": "[e,n,x]"
+    },
+    "Chingola": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Chiredzi": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Chittagong": {
+        "H-Antigen": "1,3,10,19",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z35"
+    },
+    "Choleraesuis": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Chomedey": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Christiansborg": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Clackamas": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,6"
+    },
+    "Claibornei": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Clanvillian": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Clerkenwell": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "l,w"
+    },
+    "Cleveland": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,7"
+    },
+    "Clontarf": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Cochin": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Cochise": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,7"
+    },
+    "Cocody": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "r,i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Coeln": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,2"
+    },
+    "Coleypark": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "l,w"
+    },
+    "Colindale": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,7"
+    },
+    "Colobane": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,7"
+    },
+    "Colombo": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,6"
+    },
+    "Colorado": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "1,5"
+    },
+    "Concord": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,2"
+    },
+    "Connecticut": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "1,5"
+    },
+    "Coogee": {
+        "H-Antigen": "42",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Coquilhatville": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,7"
+    },
+    "Coromandel": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "z35"
+    },
+    "Corvallis": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "[z6]"
+    },
+    "Cotham": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Cotia": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "-",
+        "O-AntigenP2": "1,6"
+    },
+    "Cotonou": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "z6"
+    },
+    "Cremieu": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,6"
+    },
+    "Crewe": {
+        "H-Antigen": "11", 
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Croft": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "g,m,s",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Crossness": {
+        "H-Antigen": "67",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,2"
+    },
+    "Cubana": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Cuckmere": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,2"
+    },
+    "Cullingworth": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "l,w"
+    },
+    "Cumberland": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Curacao": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,6"
+    },
+    "Cyprus": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "l,w"
+    },
+    "Czernyring": {
+        "H-Antigen": "54",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,5"
+    },
+    "Daarle": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Dabou": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "l,w"
+    },
+    "Dadzie": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Dahlem": {
+        "H-Antigen": "48",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Dahomey": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Dahra": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Dakar": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,6"
+    },
+    "Dakota": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Dallgow": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Damman": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "z6"
+    },
+    "Dan": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Dapango": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,2"
+    },
+    "Daula": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "z6"
+    },
+    "Daytona": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Deckstein": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,7"
+    },
+    "Delan": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Delmenhorst": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "z71",
+        "O-AntigenP2": "-"
+    },
+    "Dembe": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "l,w"
+    },
+    "Demerara": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "l,w"
+    },
+    "Denver": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Derby": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "f,g",
+        "O-AntigenP2": "[1,2]"
+    },
+    "Derkle": {
+        "H-Antigen": "52",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,7"
+    },
+    "Dessau": {
+        "H-Antigen": "1,3,15,19",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Detmold": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,2"
+    },
+    "Deversoir": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Dibra": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "z6"
+    },
+    "Dietrichsdorf": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Dieuppeul": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,7"
+    },
+    "Diguel": {
+        "H-Antigen": "1,13,22",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Dingiri": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6"
+    },
+    "Diogoye": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "z6"
+    },
+    "Diourbel": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,2"
+    },
+    "Djakarta": {
+        "H-Antigen": "48",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Djama": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "[1,5]"
+    },
+    "Djelfa": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,2"
+    },
+    "Djermaia": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Djibouti": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Djinten": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Djugu": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Doba": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Doel": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6"
+    },
+    "Doncaster": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Donna": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Doorn": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,2"
+    },
+    "Dortmund": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "1,[2],5"
+    },
+    "Douala": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "l,w"
+    },
+    "Dougi": {
+        "H-Antigen": "50",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,6"
+    },
+    "Doulassame": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Drac": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Dresden": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Driffield": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Drogana": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "r,[i]",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Dublin": {
+        "H-Antigen": "1,9,12[Vi]",
+        "O-AntigenP1": "g,p",
+        "O-AntigenP2": "-"
+    },
+    "Duesseldorf": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Dugbe": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,6"
+    },
+    "Duisburg": {
+        "H-Antigen": "1,4,12,[27]",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Dumfries": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "r,i",
+        "O-AntigenP2": "1,6"
+    },
+    "Dunkwa": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,7"
+    },
+    "Durban": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Durham": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Duval": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Ealing": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "g,m,s",
+        "O-AntigenP2": "-"
+    },
+    "Eastbourne": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Eastglam": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Eaubonne": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Eberswalde": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,6"
+    },
+    "Eboko": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,7"
+    },
+    "Ebrie": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "g,m,t",
+        "O-AntigenP2": "-"
+    },
+    "Echa": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,2"
+    },
+    "Ede": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Edinburg": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Edmonton": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Egusi": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Egusitoo": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Eingedi": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "f,g,t",
+        "O-AntigenP2": "1,2,7"
+    },
+    "Eko": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,6"
+    },
+    "Ekotedo": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "-"
+    },
+    "Ekpoui": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Elbeuf": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Elisabethville": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,7"
+    },
+    "Elokate": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,7"
+    },
+    "Elomrane": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Emek": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "g,m,s",
+        "O-AntigenP2": "-"
+    },
+    "Emmastad": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,6"
+    },
+    "Encino": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "l,z13,z28"
+    },
+    "Enschede": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "l,w"
+    },
+    "Entebbe": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "z6"
+    },
+    "Enteritidis": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "-"
+    },
+    "Enugu": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,[z13],z28",
+        "O-AntigenP2": "[1,5]"
+    },
+    "Epalinges": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "[z44]"
+    },
+    "Epicrates": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "l,w"
+    },
+    "Epinay": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "l,z13,z28"
+    },
+    "Eppendorf": {
+        "H-Antigen": "1,4,12,[27]",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Erfurt": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Escanaba": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Eschberg": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,7"
+    },
+    "Eschweiler": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,6"
+    },
+    "Essen": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "-"
+    },
+    "Essingen": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "z6"
+    },
+    "Etterbeek": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Euston": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "r,i",
+        "O-AntigenP2": "e,n,x,z15"
+    },
+    "Everleigh": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Evry": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "z6"
+    },
+    "Ezra": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,7"
+    },
+    "Fairfield": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "l,w"
+    },
+    "Fajara": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Faji": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Falkensee": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Fallowfield": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Fann": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Fanti": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Farakan": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Farcha": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,2"
+    },
+    "Fareham": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "r,i",
+        "O-AntigenP2": "l,w"
+    },
+    "Farmingdale": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "[1,2]"
+    },
+    "Farmsen": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6"
+    },
+    "Farsta": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Fass": {
+        "H-Antigen": "50",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,2"
+    },
+    "Fayed": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "1,2"
+    },
+    "Fehrbellin": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "1,6"
+    },
+    "Ferlo": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Ferruch": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Fillmore": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Finaghy": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,6"
+    },
+    "Findorff": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z6"
+    },
+    "Finkenwerder": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Fischerhuette": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Fischerkietz": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Fischerstrasse": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Fitzroy": {
+        "H-Antigen": "48",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Florian": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Florida": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,7"
+    },
+    "Flottbek": {
+        "H-Antigen": "52",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Fluntern": {
+        "H-Antigen": "6,14,18",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Fomeco": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Fortlamy": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6"
+    },
+    "Fortune": {
+        "H-Antigen": "1,4,12,[27]",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "z6"
+    },
+    "Franken": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "z6",
+        "O-AntigenP2": "z67"
+    },
+    "Frankfurt": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Frederiksberg": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "l,w"
+    },
+    "Freefalls": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "l,w"
+    },
+    "Freetown": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Freiburg": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "l,z13",
+        "O-AntigenP2": "1,2"
+    },
+    "Fresno": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Friedenau": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,6"
+    },
+    "Friedrichsfelde": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "f,g",
+        "O-AntigenP2": "-"
+    },
+    "Frintrop": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Fufu": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Fulda": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "1,5"
+    },
+    "Fulica": {
+        "H-Antigen": "4,[5],12",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "-"
+    },
+    "Fyris": {
+        "H-Antigen": "4,[5],12",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,2"
+    },
+    "Gabon": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "1,2"
+    },
+    "Gafsa": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,6"
+    },
+    "Gaillac": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Galiema": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,2"
+    },
+    "Galil": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Gallen": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,2"
+    },
+    "Gallinarum": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "-",
+        "O-AntigenP2": "-"
+    },
+    "Gamaba": {
+        "H-Antigen": "1,44",
+        "O-AntigenP1": "g,m,[s]",
+        "O-AntigenP2": "[1,6]"
+    },
+    "Gambaga": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Gambia": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Gaminara": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,7"
+    },
+    "Garba": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Garoli": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,6"
+    },
+    "Gassi": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "z6"
+    },
+    "Gateshead": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Gatineau": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Gatow": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,7"
+    },
+    "Gatuni": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Gbadago": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Gdansk": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "z6"
+    },
+    "Gege": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,5"
+    },
+    "Georgia": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Gera": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "1,6"
+    },
+    "Geraldton": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,6"
+    },
+    "Gerland": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Ghana": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Giessen": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "g,m,s",
+        "O-AntigenP2": "-"
+    },
+    "Give": {
+        "H-Antigen": "3,{10}{15}{15,34}",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,7"
+    },
+    "Giza": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,2"
+    },
+    "Glasgow": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Glidji": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "1,5"
+    },
+    "Glostrup": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Gloucester": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "l,w"
+    },
+    "Gnesta": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Godesberg": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "g,m,[t]",
+        "O-AntigenP2": "-"
+    },
+    "Goelzau": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Goeteborg": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Goettingen": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Gokul": {
+        "H-Antigen": "1,51",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Goldcoast": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "l,w"
+    },
+    "Goma": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "z6"
+    },
+    "Gombe": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Good": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "f,g",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Gori": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,2"
+    },
+    "Goulfey": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Gouloumbo": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Goverdhan": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Gozo": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Grampian": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "l,w"
+    },
+    "Grancanaria": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z39",
+        "O-AntigenP2": "[1,6]"
+    },
+    "Grandhaven": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,2"
+    },
+    "Granlo": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Graz": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,2"
+    },
+    "Greiz": {
+        "H-Antigen": "40",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "z6"
+    },
+    "Groenekan": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Grumpensis": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,7"
+    },
+    "Guarapiranga": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Guerin": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "z6"
+    },
+    "Gueuletapee": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "g,m,s",
+        "O-AntigenP2": "-"
+    },
+    "Guildford": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,2"
+    },
+    "Guinea": {
+        "H-Antigen": "1,44",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,7"
+    },
+    "Gustavia": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Gwale": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "z6"
+    },
+    "Gwoza": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Haardt": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Hadar": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Hadejia": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Haduna": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "l,z13,[z28]",
+        "O-AntigenP2": "1,6"
+    },
+    "Haelsingborg": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "m,p,t,[u]",
+        "O-AntigenP2": "-"
+    },
+    "Haferbreite": {
+        "H-Antigen": "42",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Haga": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Haifa": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,2"
+    },
+    "Halle": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,7"
+    },
+    "Hallfold": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "l,w"
+    },
+    "Handen": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,2"
+    },
+    "Hann": {
+        "H-Antigen": "40",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Hannover": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,2"
+    },
+    "Haouaria": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,x,z15"
+    },
+    "Harburg": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Harcourt": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,2"
+    },
+    "Harleystreet": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6"
+    },
+    "Harrisonburg": {
+        "H-Antigen": "3,{10}{15}{15,34}",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,6"
+    },
+    "Hartford": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Harvestehude": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "z6"
+    },
+    "Hatfield": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,6"
+    },
+    "Hato": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "g,m,s",
+        "O-AntigenP2": "[1,2]"
+    },
+    "Havana": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "f,g,[s]",
+        "O-AntigenP2": "-"
+    },
+    "Hayindogo": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,6"
+    },
+    "Heerlen": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,6"
+    },
+    "Hegau": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "-"
+    },
+    "Heidelberg": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,2"
+    },
+    "Heistopdenberg": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "l,w"
+    },
+    "Hemingford": {
+        "H-Antigen": "50",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Hennekamp": {
+        "H-Antigen": "42",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Hermannswerder": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Heron": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "z6"
+    },
+    "Herston": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Herzliya": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Hessarek": {
+        "H-Antigen": "4,12,[27]",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Hidalgo": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "r,[i]",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Hiduddify": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "1,5"
+    },
+    "Hillegersberg": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,5"
+    },
+    "Hillingdon": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "-"
+    },
+    "Hillsborough": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "l,w"
+    },
+    "Hilversum": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,2"
+    },
+    "Hindmarsh": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,5"
+    },
+    "Hisingen": {
+        "H-Antigen": "48",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5,7"
+    },
+    "Hissar": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,2"
+    },
+    "Hithergreen": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Hoboken": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "l,w"
+    },
+    "Hofit": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Hoghton": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "z6"
+    },
+    "Hohentwiel": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,x,z15"
+    },
+    "Holcomb": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Homosassa": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Honelis": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Hongkong": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "z6"
+    },
+    "Horsham": {
+        "H-Antigen": "1,6,14,[25]",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Houston": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Huddinge": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,7"
+    },
+    "Huettwilen": {
+        "H-Antigen": "1,4,12",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "l,w"
+    },
+    "Hull": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,2"
+    },
+    "Huvudsta": {
+        "H-Antigen": "3,{10}{15,34}",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,7"
+    },
+    "Hvittingfoss": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Hydra": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,6"
+    },
+    "Ibadan": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Ibaragi": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,2"
+    },
+    "Idikan": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Ikayi": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,6"
+    },
+    "Ikeja": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,7"
+    },
+    "Ilala": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Ilugun": {
+        "H-Antigen": "1,3,10,19",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "z6"
+    },
+    "Imo": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Inchpark": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,7"
+    },
+    "India": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Indiana": {
+        "H-Antigen": "1,4,12",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,7"
+    },
+    "Infantis": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,5"
+    },
+    "Inganda": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Inglis": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Inpraw": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Inverness": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Ipeko": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,6"
+    },
+    "Ipswich": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "1,5"
+    },
+    "Irchel": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Irenea": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Irigny": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Irumu": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Isangi": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Isaszeg": {
+        "H-Antigen": "48",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Israel": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Istanbul": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Istoria": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "r,i",
+        "O-AntigenP2": "1,5"
+    },
+    "Isuge": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z6"
+    },
+    "Itami": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "l,z13",
+        "O-AntigenP2": "1,5"
+    },
+    "Ituri": {
+        "H-Antigen": "1,4,12",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Itutaba": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "z6"
+    },
+    "Ivory": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,6"
+    },
+    "Ivorycoast": {
+        "H-Antigen": "50",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Ivrysurseine": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "z6"
+    },
+    "Jaffna": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z35"
+    },
+    "Jalisco": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,7"
+    },
+    "Jamaica": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,5"
+    },
+    "Jambur": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Jangwani": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Javiana": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "1,5"
+    },
+    "Jedburgh": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Jericho": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Jerusalem": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "l,w"
+    },
+    "Joal": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "1,7"
+    },
+    "Jodhpur": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Johannesburg": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Jos": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Juba": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,7"
+    },
+    "Jubilee": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Jukestown": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Kaapstad": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,7"
+    },
+    "Kabete": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Kaduna": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Kaevlinge": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "_"
+    },
+    "Kahla": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,6"
+    },
+    "Kainji": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6"
+    },
+    "Kaitaan": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Kalamu": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "[1,5]"
+    },
+    "Kalina": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,2"
+    },
+    "Kallo": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,2"
+    },
+    "Kalumburu": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Kambole": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,[2],7"
+    },
+    "Kamoru": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "z6"
+    },
+    "Kampala": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "z6"
+    },
+    "Kande": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Kandla": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Kaneshie": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "l,w"
+    },
+    "Kanifing": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6"
+    },
+    "Kano": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Kaolack": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6"
+    },
+    "Kapemba": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,7"
+    },
+    "Karachi": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Karamoja": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "1,2"
+    },
+    "Karaya": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Karlshamn": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Kasenyi": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Kassberg": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,6"
+    },
+    "Kassel": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Kastrup": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "e,n,z15",
+        "O-AntigenP2": "1,6"
+    },
+    "Kedougou": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "l,w"
+    },
+    "Kentucky": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "z6"
+    },
+    "Kenya": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "l,z13",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Kermel": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Kethiabarny": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Keurmassar": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,2"
+    },
+    "Keve": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "-"
+    },
+    "Kiambu": {
+        "H-Antigen": "1,4,12",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Kibi": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "[1,6]"
+    },
+    "Kibusi": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Kidderminster": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,6"
+    },
+    "Kiel": {
+        "H-Antigen": "1,2,12",
+        "O-AntigenP1": "g,p",
+        "O-AntigenP2": "-"
+    },
+    "Kikoma": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Kimberley": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Kimpese": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6"
+    },
+    "Kimuenza": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Kindia": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Kingabwa": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Kingston": {
+        "H-Antigen": "1,4,[5],12,[27]",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "[1,2]"
+    },
+    "Kinondoni": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Kinson": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Kintambo": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Kirkee": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,2"
+    },
+    "Kisangani": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,2"
+    },
+    "Kisarawe": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,x,[z15]"
+    },
+    "Kisii": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,2"
+    },
+    "Kitenge": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Kivu": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,6"
+    },
+    "Klouto": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Koblenz": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Kodjovi": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,6"
+    },
+    "Koenigstuhl": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Koessen": {
+        "H-Antigen": "2,12",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Kofandoka": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Koketime": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Kokoli": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,6"
+    },
+    "Kokomlemle": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Kolar": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z35"
+    },
+    "Kolda": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,2"
+    },
+    "Konolfingen": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,6"
+    },
+    "Konongo": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,7"
+    },
+    "Konstanz": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Korbol": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Korkeasaari": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Korlebu": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Korovi": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "g,m,[s]",
+        "O-AntigenP2": "-"
+    },
+    "Kortrijk": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,7"
+    },
+    "Kottbus": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Kotte": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z35"
+    },
+    "Kotu": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "1,6"
+    },
+    "Kouka": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "g,m,[t]",
+        "O-AntigenP2": "-"
+    },
+    "Koumra": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,7"
+    },
+    "Kpeme": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,7"
+    },
+    "Kralingen": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "z6"
+    },
+    "Krefeld": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "l,w"
+    },
+    "Kristianstad": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Kua": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "-"
+    },
+    "Kubacha": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "1,7"
+    },
+    "Kuessel": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Kumasi": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Kunduchi": {
+        "H-Antigen": "1,4,[5],12,[27]",
+        "O-AntigenP1": "l,[z13],[z28]",
+        "O-AntigenP2": "1,2"
+    },
+    "Kuntair": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Kuru": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "l,w"
+    },
+    "Labadi": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z6"
+    },
+    "Lagos": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Lamberhurst": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Lamin": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Lamphun": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,2"
+    },
+    "Lancaster": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,7"
+    },
+    "Landala": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,6"
+    },
+    "Landau": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,2"
+    },
+    "Landwasser": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "z6"
+    },
+    "Langenhorn": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Langensalza": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "l,w"
+    },
+    "Langeveld": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Langford": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Lansing": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Laredo": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,6"
+    },
+    "Larochelle": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Larose": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "g,z51",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Lattenkamp": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,5"
+    },
+    "Lawndale": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Lawra": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Leatherhead": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "1,6"
+    },
+    "Lechler": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Leda": {
+        "H-Antigen": "53",
+        "O-AntigenP1": "-",
+        "O-AntigenP2": "1,6"
+    },
+    "Leer": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Leeuwarden": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Legon": {
+        "H-Antigen": "1,4,12,[27]",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Lehrte": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "z6"
+    },
+    "Leiden": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Leipzig": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Leith": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Lekke": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,6"
+    },
+    "Lene": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Leoben": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Leopoldville": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Lerum": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,7"
+    },
+    "Lexington": {
+        "H-Antigen": "3,{10}{15}{15,34}",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Lezennes": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "1,7"
+    },
+    "Libreville": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,6"
+    },
+    "Ligeo": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,2"
+    },
+    "Ligna": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "z6"
+    },
+    "Lika": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,7"
+    },
+    "Lille": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Limete": {
+        "H-Antigen": "1,4,12,[27]",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Lindenburg": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,2"
+    },
+    "Lindern": {
+        "H-Antigen": "6,14,[24]",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Lindi": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,5"
+    },
+    "Linguere": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Lingwala": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,7"
+    },
+    "Linton": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Lisboa": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,6"
+    },
+    "Lishabi": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,7"
+    },
+    "Litchfield": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,2"
+    },
+    "Liverpool": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Livingstone": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "l,w"
+    },
+    "Livulu": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Ljubljana": {
+        "H-Antigen": "4,12,27",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Llandoff": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "[z6]"
+    },
+    "Llobregat": {
+        "H-Antigen": "1,44",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Loanda": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Lockleaze": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Lode": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,2"
+    },
+    "Lodz": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Loenga": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "z6"
+    },
+    "Logone": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Lokomo": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "l,w"
+    },
+    "Lokstedt": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "1,2"
+    },
+    "Lomalinda": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Lome": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "z6"
+    },
+    "Lomita": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Lomnava": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "London": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,6"
+    },
+    "Lonestar": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "-"
+    },
+    "Losangeles": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "z6"
+    },
+    "Loubomo": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6"
+    },
+    "Louga": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,2"
+    },
+    "Louisiana": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "z6"
+    },
+    "Lovelace": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Lowestoft": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Lubumbashi": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,5"
+    },
+    "Luciana": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Luckenwalde": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Luedinghausen": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Luke": {
+        "H-Antigen": "1,47",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "-"
+    },
+    "Lund": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "z6"
+    },
+    "Lutetia": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "r,i",
+        "O-AntigenP2": "l,z13,z28"
+    },
+    "Lyon": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Maastricht": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "1,2"
+    },
+    "Macallen": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z36",
+        "O-AntigenP2": "-"
+    },
+    "Macclesfield": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "g,m,s",
+        "O-AntigenP2": "1,2,7"
+    },
+    "Machaga": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Madelia": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,7"
+    },
+    "Madiago": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,7"
+    },
+    "Madigan": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Madison": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z6"
+    },
+    "Madjorio": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Madras": {
+        "H-Antigen": "4,[5],12",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Magherafelt": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "l,w"
+    },
+    "Magumeri": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,6"
+    },
+    "Magwa": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Mahina": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Maiduguri": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "f,g,t",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Makiling": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Makiso": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "z6"
+    },
+    "Malakal": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Malaysia": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,7"
+    },
+    "Malika": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "1,5"
+    },
+    "Malmoe": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,7"
+    },
+    "Malstatt": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Mampeza": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Mampong": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,6"
+    },
+    "Mana": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Manchester": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,7"
+    },
+    "Mandera": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,z13",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Mango": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Manhattan": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Mannheim": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "l,w"
+    },
+    "Mapo": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Mara": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Maracaibo": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Marburg": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "-"
+    },
+    "Maricopa": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "g,z51",
+        "O-AntigenP2": "1,5"
+    },
+    "Marienthal": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Maritzburg": {
+        "H-Antigen": "1,44",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Marmande": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,7"
+    },
+    "Maron": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z35"
+    },
+    "Maroua": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,7"
+    },
+    "Marsabit": {
+        "H-Antigen": "52",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "1,5"
+    },
+    "Marseille": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Marshall": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "l,z13,z28"
+    },
+    "Martonos": {
+        "H-Antigen": "6,14,24",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Maryland": {
+        "H-Antigen": "57",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,7"
+    },
+    "Marylebone": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,2"
+    },
+    "Masembe": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Maska": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Massakory": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "l,w"
+    },
+    "Massenya": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Massilia": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,6"
+    },
+    "Matadi": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Mathura": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Matopeni": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,2"
+    },
+    "Mattenhof": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Maumee": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Mayday": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "z6"
+    },
+    "Mbandaka": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Mbao": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,2"
+    },
+    "Meekatharra": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Melaka": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,2,5"
+    },
+    "Melbourne": {
+        "H-Antigen": "42",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Meleagridis": {
+        "H-Antigen": "3,{10}{15}{15,34}",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "l,w"
+    },
+    "Memphis": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Menden": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,2"
+    },
+    "Mendoza": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,2"
+    },
+    "Menston": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "g,s,[t]",
+        "O-AntigenP2": "[1,6]"
+    },
+    "Mesbit": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Meskin": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Messina": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Mgulani": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,2"
+    },
+    "Miami": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Michigan": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Middlesbrough": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "z6"
+    },
+    "Midway": {
+        "H-Antigen": "6,14,24",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,7"
+    },
+    "Mikawasima": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Millesi": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,2"
+    },
+    "Milwaukee": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "f,g,[t]",
+        "O-AntigenP2": "-"
+    },
+    "Mim": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,6"
+    },
+    "Minna": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "l,w"
+    },
+    "Minnesota": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Mishmarhaemek": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Mississippi": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Missouri": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Miyazaki": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "l,z13",
+        "O-AntigenP2": "1,7"
+    },
+    "Mjordan": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Mkamba": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,6"
+    },
+    "Moabit": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "l,w"
+    },
+    "Mocamedes": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Moero": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Moers": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Mokola": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,7"
+    },
+    "Molade": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "z6"
+    },
+    "Molesey": {
+        "H-Antigen": "52",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Mono": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "1,5"
+    },
+    "Mons": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "l,w"
+    },
+    "Monschaui": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Montaigu": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,2"
+    },
+    "Montevideo": {
+        "H-Antigen": "6,7,14,[54]",
+        "O-AntigenP1": "g,m,[p],s",
+        "O-AntigenP2": "[1,2,7]"
+    },
+    "Montreal": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Morbihan": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Morehead": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Morillons": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "1,6"
+    },
+    "Morningside": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Mornington": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Morocco": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Morotai": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,2"
+    },
+    "Moroto": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "l,w"
+    },
+    "Moscow": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "g,q",
+        "O-AntigenP2": "-"
+    },
+    "Moualine": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,6"
+    },
+    "Moundou": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "1,5"
+    },
+    "Mountmagnet": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "-"
+    },
+    "Mountpleasant": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Moussoro": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Mowanjum": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Mpouto": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Muenchen": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,2"
+    },
+    "Muenster": {
+        "H-Antigen": "3,{10}{15}{15,34}",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Muguga": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Mulhouse": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,2"
+    },
+    "Mundonobo": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,7"
+    },
+    "Mundubbera": {
+        "H-Antigen": "54",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Mura": {
+        "H-Antigen": "1,4,12",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "l,w"
+    },
+    "Mygdal": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "z91",
+        "O-AntigenP2": "-"
+    },
+    "Myrria": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,7"
+    },
+    "Naestved": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "g,p,s",
+        "O-AntigenP2": "-"
+    },
+    "Nagoya": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Nakuru": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "z6"
+    },
+    "Namibia": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Namoda": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Namur": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "-"
+    },
+    "Nanergou": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Nanga": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Nantes": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "l,w"
+    },
+    "Napoli": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "l,z13",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Narashino": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Nashua": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Natal": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Naware": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Nchanga": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,2"
+    },
+    "Ndjamena": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,2"
+    },
+    "Ndolo": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Neftenbach": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Nessa": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,2"
+    },
+    "Nessziona": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "l,z13",
+        "O-AntigenP2": "1,5"
+    },
+    "Neudorf": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Neukoelln": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "l,z13,[z28]",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Neumuenster": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Neunkirchen": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "[1,5]"
+    },
+    "Newholland": {
+        "H-Antigen": "4,12,54",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Newjersey": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Newlands": {
+        "H-Antigen": "3,{10}{15,34}",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Newmexico": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "g,z51",
+        "O-AntigenP2": "1,5"
+    },
+    "Newport": {
+        "H-Antigen": "6,8,20",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Newrochelle": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "l,w"
+    },
+    "Newyork": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Ngaparou": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Ngili": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,7"
+    },
+    "Ngor": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Niakhar": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Niamey": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "l,w"
+    },
+    "Niarembe": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "l,w"
+    },
+    "Niederoderwitz": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "-"
+    },
+    "Nieukerk": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z6"
+    },
+    "Nigeria": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,6"
+    },
+    "Nijmegen": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Nikolaifleet": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "g,m,s",
+        "O-AntigenP2": "-"
+    },
+    "Niloese": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z6"
+    },
+    "Nima": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Nimes": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Nitra": {
+        "H-Antigen": "2,12",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "-"
+    },
+    "Niumi": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Njala": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Nola": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,7"
+    },
+    "Nordrhein": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Nordufer": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,7"
+    },
+    "Norton": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "l,w"
+    },
+    "Norwich": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,6"
+    },
+    "Nottingham": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Nowawes": {
+        "H-Antigen": "40",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "z6"
+    },
+    "Noya": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,7"
+    },
+    "Nuatja": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Nyanza": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "z6"
+    },
+    "Nyborg": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,7"
+    },
+    "Nyeko": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,7"
+    },
+    "Oakey": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "z64"
+    },
+    "Oakland": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6,[7]"
+    },
+    "Obogu": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "1,5"
+    },
+    "Ochiogu": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Ochsenwerder": {
+        "H-Antigen": "6,7,54",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Ockenheim": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "1,6"
+    },
+    "Odienne": {
+        "H-Antigen": "40",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Odozi": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,[x],z15"
+    },
+    "Oerlikon": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Oesterbro": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Offa": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Ogbete": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Ohio": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "l,w"
+    },
+    "Ohlstedt": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Okatie": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "g,[s],t",
+        "O-AntigenP2": "-"
+    },
+    "Okefoko": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "z6"
+    },
+    "Okerara": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,2"
+    },
+    "Oldenburg": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,2"
+    },
+    "Olten": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Omifisan": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Omuna": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "z35"
+    },
+    "Ona": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Onarimon": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,2"
+    },
+    "Onderstepoort": {
+        "H-Antigen": "1,6,14,[25]",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Onireke": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,7"
+    },
+    "Ontario": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Oran": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Oranienburg": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "[z57]"
+    },
+    "Orbe": {
+        "H-Antigen": "42",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Ord": {
+        "H-Antigen": "52",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Ordonez": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "l,w"
+    },
+    "Orientalis": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Orion": {
+        "H-Antigen": "3,{10}{15}{15,34}",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Oritamerin": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Orlando": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Orleans": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Os": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,6"
+    },
+    "Oskarshamn": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,2"
+    },
+    "Oslo": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Osnabrueck": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Othmarschen": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "g,m,[t]",
+        "O-AntigenP2": "-"
+    },
+    "Ottawa": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "1,5"
+    },
+    "Ouagadougou": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Ouakam": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Oudwijk": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Overchurch": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "[1,2]"
+    },
+    "Overschie": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Overvecht": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,2"
+    },
+    "Oxford": {
+        "H-Antigen": "3,{10}{15}{15,34}",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,7"
+    },
+    "Oyonnax": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,6"
+    },
+    "Pakistan": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,2"
+    },
+    "Palamaner": {
+        "H-Antigen": "1,44",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z35"
+    },
+    "Palime": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Panama": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Papuana": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Parakou": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "z35"
+    },
+    "Paratyphi": {
+        "H-Antigen": "C",
+        "O-AntigenP1": "6,7,[Vi]",
+        "O-AntigenP2": "c"
+    },
+    "Paris": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Parkroyal": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,7"
+    },
+    "Pasing": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,5"
+    },
+    "Patience": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Penarth": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "z6"
+    },
+    "Penilla": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Pensacola": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "[1,2]"
+    },
+    "Perth": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Petahtikve": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "f,g,t",
+        "O-AntigenP2": "1,7"
+    },
+    "Phaliron": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Pharr": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Picpus": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,6"
+    },
+    "Pietersburg": {
+        "H-Antigen": "3,{10}{15,34}",
+        "O-AntigenP1": "z69",
+        "O-AntigenP2": "1,7"
+    },
+    "Pisa": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "l,w"
+    },
+    "Planckendael": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "1,6"
+    },
+    "Ploufragan": {
+        "H-Antigen": "1,44",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Plumaugat": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "g,s,q",
+        "O-AntigenP2": "-"
+    },
+    "Plymouth": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z6"
+    },
+    "Poano": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "l,z13,z28"
+    },
+    "Podiensis": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Poeseldorf": {
+        "H-Antigen": "8,20,54",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "z6"
+    },
+    "Poitiers": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Pomona": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,7"
+    },
+    "Pontypridd": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "-"
+    },
+    "Poona": {
+        "H-Antigen": "1,13,22",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6"
+    },
+    "Portanigra": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,7"
+    },
+    "Portland": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Potengi": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "-"
+    },
+    "Potosi": {
+        "H-Antigen": "6,14",
+        "O-AntigenP1": "z36",
+        "O-AntigenP2": "1,5"
+    },
+    "Potsdam": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Potto": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "z6"
+    },
+    "Powell": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,7"
+    },
+    "Praha": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Pramiso": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,7"
+    },
+    "Presov": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Preston": {
+        "H-Antigen": "1,4,12",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "l,w"
+    },
+    "Pretoria": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,2"
+    },
+    "Putten": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "l,w"
+    },
+    "Quebec": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Quentin": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,6"
+    },
+    "Quincy": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,6"
+    },
+    "Quinhon": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z44",
+        "O-AntigenP2": "-"
+    },
+    "Quiniela": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Ramatgan": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Ramsey": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "1,6"
+    },
+    "Ratchaburi": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,6"
+    },
+    "Raus": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "f,g",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Rawash": {
+        "H-Antigen": "6,14,18",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Reading": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Rechovot": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "z6"
+    },
+    "Redba": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "z6"
+    },
+    "Redhill": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "l,z13,z28"
+    },
+    "Redlands": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Regent": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "f,g,[s]",
+        "O-AntigenP2": "[1,6]"
+    },
+    "Reinickendorf": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Remete": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "1,6"
+    },
+    "Remiremont": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "l,w"
+    },
+    "Remo": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,7"
+    },
+    "Reubeuss": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "g,m,t",
+        "O-AntigenP2": "-"
+    },
+    "Rhone": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Rhydyfelin": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Richmond": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,2"
+    },
+    "Rideau": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "f,g",
+        "O-AntigenP2": "-"
+    },
+    "Ridge": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "z6"
+    },
+    "Ried": {
+        "H-Antigen": "1,13,22",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Riggil": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "g,(t)",
+        "O-AntigenP2": "-"
+    },
+    "Riogrande": {
+        "H-Antigen": "40",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Rissen": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "f,g",
+        "O-AntigenP2": "-"
+    },
+    "Rittersbach": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Riverside": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Roan": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Rochdale": {
+        "H-Antigen": "50",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Rogy": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,2"
+    },
+    "Romanby": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Roodepoort": {
+        "H-Antigen": "1,13,22",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Rosenberg": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "g,z85",
+        "O-AntigenP2": "-"
+    },
+    "Rossleben": {
+        "H-Antigen": "3,54",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,6"
+    },
+    "Rostock": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "g,p,u",
+        "O-AntigenP2": "-"
+    },
+    "Rothenburgsort": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Rottnest": {
+        "H-Antigen": "1,13,22",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,7"
+    },
+    "Rovaniemi": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "r,i",
+        "O-AntigenP2": "1,5"
+    },
+    "Royan": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Ruanda": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Rubislaw": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Ruiru": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Rumford": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "1,2"
+    },
+    "Runby": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Ruzizi": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Saarbruecken": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,7"
+    },
+    "Saboya": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Sada": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,2"
+    },
+    "Saintemarie": {
+        "H-Antigen": "52",
+        "O-AntigenP1": "g,t",
+        "O-AntigenP2": "-"
+    },
+    "Saintpaul": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Salford": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Salinas": {
+        "H-Antigen": "40",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,7"
+    },
+    "Sally": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6"
+    },
+    "Saloniki": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Samaru": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Sambre": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Sandaga": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "1,2"
+    },
+    "Sandiego": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Sandow": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "f,g",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Sanga": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,7"
+    },
+    "Sangalkam": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Sangera": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Sanjuan": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Sanktgeorg": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "r,[i]",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Sanktjohann": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "l,w"
+    },
+    "Sanktmarx": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,7"
+    },
+    "Santander": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Santhiaba": {
+        "H-Antigen": "40",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "1,6"
+    },
+    "Santiago": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Sao": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Sapele": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Saphra": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Sara": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "[e,n,x]"
+    },
+    "Sarajane": {
+        "H-Antigen": "1,4,[5],12,[27]",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Saugus": {
+        "H-Antigen": "40",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,7"
+    },
+    "Scarborough": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "l,z13,z28"
+    },
+    "Schalkwijk": {
+        "H-Antigen": "6,14,[24]",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Schleissheim": {
+        "H-Antigen": "4,12,27",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "-"
+    },
+    "Schoeneberg": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Schwabach": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,7"
+    },
+    "Schwarzengrund": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,7"
+    },
+    "Schwerin": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Sculcoates": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Seattle": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Sedgwick": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Seegefeld": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "r,i",
+        "O-AntigenP2": "1,2"
+    },
+    "Sekondi": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "z6"
+    },
+    "Selby": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "z6"
+    },
+    "Sendai": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Senegal": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,5"
+    },
+    "Senftenberg": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "g,[s],t",
+        "O-AntigenP2": "-"
+    },
+    "Senneville": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Seremban": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Serrekunda": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,7"
+    },
+    "Shahalam": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Shamba": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Shangani": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Shanghai": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,6"
+    },
+    "Shannon": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "l,w"
+    },
+    "Sharon": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Sheffield": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Sherbrooke": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,6"
+    },
+    "Shikmonah": {
+        "H-Antigen": "40",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Shipley": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Shomolu": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "l,w"
+    },
+    "Shoreditch": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Shubra": {
+        "H-Antigen": "4,[5],12",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,2"
+    },
+    "Sica": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Simi": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Sinchew": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "z35"
+    },
+    "Sindelfingen": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "l,w"
+    },
+    "Singapore": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Sinstorf": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,5"
+    },
+    "Sinthia": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "-"
+    },
+    "Sipane": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Skansen": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,2"
+    },
+    "Slade": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Sljeme": {
+        "H-Antigen": "1,47",
+        "O-AntigenP1": "f,g",
+        "O-AntigenP2": "-"
+    },
+    "Sloterdijk": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "z6"
+    },
+    "Soahanina": {
+        "H-Antigen": "6,14,24",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Soerenga": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "l,w"
+    },
+    "Sokode": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "z6"
+    },
+    "Solna": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Solt": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Somone": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Sontheim": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z35"
+    },
+    "Soumbedioune": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Southampton": {
+        "H-Antigen": "4,12,27",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "z6"
+    },
+    "Southbank": {
+        "H-Antigen": "3,{10}{15}{15,34}",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "[1,6]"
+    },
+    "Souza": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Spalentor": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Spartel": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Splott": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "[1,7]"
+    },
+    "Stachus": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "-"
+    },
+    "Stanley": {
+        "H-Antigen": "1,4,[5],12,[27]",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,2"
+    },
+    "Stanleyville": {
+        "H-Antigen": "1,4,[5],12,[27]",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "[1,2]"
+    },
+    "Staoueli": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,2"
+    },
+    "Steinplatz": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,6"
+    },
+    "Steinwerder": {
+        "H-Antigen": "3,15,54",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Stellingen": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Stendal": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,2"
+    },
+    "Sternschanze": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Sterrenbos": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Stockholm": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "z6"
+    },
+    "Stoneferry": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "-"
+    },
+    "Stormont": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,2"
+    },
+    "Stourbridge": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Straengnaes": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Strasbourg": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,7"
+    },
+    "Stratford": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,2"
+    },
+    "Strathcona": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "1,7"
+    },
+    "Stuivenberg": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "l,[z13],z28",
+        "O-AntigenP2": "1,5"
+    },
+    "Stuttgart": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "z6"
+    },
+    "Suberu": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "-"
+    },
+    "Sudan": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "l,z13",
+        "O-AntigenP2": "-"
+    },
+    "Suelldorf": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "f,g",
+        "O-AntigenP2": "-"
+    },
+    "Sundsvall": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Sunnycove": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Surat": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "r,[i]",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Surrey": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,(2),5"
+    },
+    "Svedvi": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Sya": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Sylvania": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "g,p",
+        "O-AntigenP2": "-"
+    },
+    "Szentes": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,2"
+    },
+    "Tabligbo": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Tado": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "z6"
+    },
+    "Tafo": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,7"
+    },
+    "Taiping": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "l,z13",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Takoradi": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,5"
+    },
+    "Taksony": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "z6"
+    },
+    "Tallahassee": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z4,z32",
+        "O-AntigenP2": "-"
+    },
+    "Tamale": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Tambacounda": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Tamberma": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Tamilnadu": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "z35"
+    },
+    "Tampico": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z36",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Tananarive": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Tanger": {
+        "H-Antigen": "1,13,22",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,6"
+    },
+    "Tanzania": {
+        "H-Antigen": "1,13,22",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Tarshyne": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,6"
+    },
+    "Taset": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "-"
+    },
+    "Taunton": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Taylor": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Tchad": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "-"
+    },
+    "Tchamba": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Techimani": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "z6"
+    },
+    "Teddington": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,7"
+    },
+    "Tees": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "f,g",
+        "O-AntigenP2": "-"
+    },
+    "Tejas": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "z36",
+        "O-AntigenP2": "-"
+    },
+    "Teko": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Telaviv": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Telelkebir": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Telhashomer": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Teltow": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "1,6"
+    },
+    "Tema": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "z6"
+    },
+    "Tempe": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,7"
+    },
+    "Tendeba": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Tennenlohe": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,5"
+    },
+    "Tennessee": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "[1,2,7]"
+    },
+    "Tennyson": {
+        "H-Antigen": "4,[5],12",
+        "O-AntigenP1": "g,z51",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Teshie": {
+        "H-Antigen": "1,47",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Texas": {
+        "H-Antigen": "4,[5],12",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Thayngen": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "1,(2),5"
+    },
+    "Thetford": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,2"
+    },
+    "Thiaroye": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Thies": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,7"
+    },
+    "Thompson": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Tibati": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,6"
+    },
+    "Tienba": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,6"
+    },
+    "Tiergarten": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Tiko": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "1,2"
+    },
+    "Tilburg": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "l,w"
+    },
+    "Tilene": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Tinda": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Tione": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Togba": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Togo": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "1,6"
+    },
+    "Tokoin": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Tomegbe": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Tomelilla": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "1,7"
+    },
+    "Tonev": {
+        "H-Antigen": "21,54",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Toowong": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,7"
+    },
+    "Torhout": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Toricada": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Tornow": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "g,m,[s],[t]",
+        "O-AntigenP2": "-"
+    },
+    "Toronto": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Toucra": {
+        "H-Antigen": "48",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Toulon": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Tounouma": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Tours": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "l,z13",
+        "O-AntigenP2": "1,2"
+    },
+    "Trachau": {
+        "H-Antigen": "4,12,27",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Transvaal": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Travis": {
+        "H-Antigen": "4,[5],12",
+        "O-AntigenP1": "g,z51",
+        "O-AntigenP2": "1,7"
+    },
+    "Treforest": {
+        "H-Antigen": "1,51",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6"
+    },
+    "Treguier": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "z6"
+    },
+    "Trier": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,6"
+    },
+    "Trimdon": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "z6"
+    },
+    "Tripoli": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Trotha": {
+        "H-Antigen": "40",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "z6"
+    },
+    "Troy": {
+        "H-Antigen": "18",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,7"
+    },
+    "Truro": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,7"
+    },
+    "Tschangu": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Tsevie": {
+        "H-Antigen": "1,4,12",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Tshiongwe": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Tucson": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,7"
+    },
+    "Tudu": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,6"
+    },
+    "Tumodi": {
+        "H-Antigen": "1,4,12",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "z6"
+    },
+    "Tunis": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "z6"
+    },
+    "Typhi": {
+        "H-Antigen": "9,12[Vi]",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "-"
+    },
+    "Typhimurium": {
+        "H-Antigen": "1,4,[5],12",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,2"
+    },
+    "Typhisuis": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Tyresoe": {
+        "H-Antigen": "1,4,12,[27]",
+        "O-AntigenP1": "l,[z13],z28",
+        "O-AntigenP2": "1,5"
+    },
+    "Uccle": {
+        "H-Antigen": "3,54",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Uganda": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "l,z13",
+        "O-AntigenP2": "1,5"
+    },
+    "Ughelli": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,5"
+    },
+    "Uhlenhorst": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "l,w"
+    },
+    "Uithof": {
+        "H-Antigen": "52",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Ullevi": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Umbadah": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,2"
+    },
+    "Umbilo": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Umhlali": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,6"
+    },
+    "Umhlatazana": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Uno": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Uppsala": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,7"
+    },
+    "Urbana": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Ursenbach": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,6"
+    },
+    "Usumbura": {
+        "H-Antigen": "6,14,18",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,7"
+    },
+    "Utah": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Utrecht": {
+        "H-Antigen": "52",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Uzaramo": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Vaertan": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Valdosta": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,2"
+    },
+    "Vancouver": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,5"
+    },
+    "Vanier": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Vaugirard": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Vegesack": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "l,w"
+    },
+    "Vejle": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,2"
+    },
+    "Vellore": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "z35"
+    },
+    "Veneziana": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Verona": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,6"
+    },
+    "Verviers": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Victoria": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "1,5"
+    },
+    "Victoriaborg": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,6"
+    },
+    "Vietnam": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Vilvoorde": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Vinohrady": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Virchow": {
+        "H-Antigen": "6,7,14",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,2"
+    },
+    "Virginia": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,2"
+    },
+    "Visby": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Vitkin": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Vleuten": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "f,g",
+        "O-AntigenP2": "-"
+    },
+    "Vogan": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "z6"
+    },
+    "Volkmarsdorf": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,6"
+    },
+    "Volta": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "l,z13,z28"
+    },
+    "Vom": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Voulte": {
+        "H-Antigen": "43",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Vridi": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "l,w"
+    },
+    "Vuadens": {
+        "H-Antigen": "4,12,27",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "z6"
+    },
+    "Wa": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,5"
+    },
+    "Waedenswil": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Wagadugu": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "z6"
+    },
+    "Wagenia": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Wanatah": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,7"
+    },
+    "Wandsworth": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,2"
+    },
+    "Wangata": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "[1,7]"
+    },
+    "Waral": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Warengo": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Warmsen": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Warnemuende": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Warnow": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,6"
+    },
+    "Warragul": {
+        "H-Antigen": "[1],6,14,[25]",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "-"
+    },
+    "Warri": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,7"
+    },
+    "Washington": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Waycross": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Wayne": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "g,z51",
+        "O-AntigenP2": "-"
+    },
+    "Wedding": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Welikade": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "1,7"
+    },
+    "Weltevreden": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "z6"
+    },
+    "Wenatchee": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,2"
+    },
+    "Wentworth": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,2"
+    },
+    "Wernigerode": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "f,g",
+        "O-AntigenP2": "-"
+    },
+    "Weslaco": {
+        "H-Antigen": "42",
+        "O-AntigenP1": "z36",
+        "O-AntigenP2": "-"
+    },
+    "Westafrica": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,7"
+    },
+    "Westeinde": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "1,6"
+    },
+    "Westerstede": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "l,z13",
+        "O-AntigenP2": "1,2"
+    },
+    "Westhampton": {
+        "H-Antigen": "3,{10}{15}{15,34}",
+        "O-AntigenP1": "g,s,t",
+        "O-AntigenP2": "-"
+    },
+    "Westminster": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z35"
+    },
+    "Weston": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "z6"
+    },
+    "Westphalia": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Weybridge": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z6"
+    },
+    "Wichita": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,6"
+    },
+    "Widemarsh": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Wien": {
+        "H-Antigen": "1,4,12,[27]",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "l,w"
+    },
+    "Wil": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "l,z13,z28"
+    },
+    "Wilhelmsburg": {
+        "H-Antigen": "1,4,[5],12,[27]",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Willamette": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Willemstad": {
+        "H-Antigen": "1,13,22",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,6"
+    },
+    "Wilmington": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Wimborne": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,2"
+    },
+    "Windermere": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,5"
+    },
+    "Windsheim": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,2"
+    },
+    "Wingrove": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,2"
+    },
+    "Winneba": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,6"
+    },
+    "Winnipeg": {
+        "H-Antigen": "54",
+        "O-AntigenP1": "e,h",
+        "O-AntigenP2": "1,5"
+    },
+    "Winslow": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "1,5"
+    },
+    "Winston": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "1,6"
+    },
+    "Winterthur": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "l,z13",
+        "O-AntigenP2": "1,6"
+    },
+    "Wippra": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "z6"
+    },
+    "Wisbech": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,7"
+    },
+    "Wohlen": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Woodhull": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,6"
+    },
+    "Woodinville": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Worb": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Worthington": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "l,w"
+    },
+    "Woumbou": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "e,n,x,z15"
+    },
+    "Wuiti": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Wuppertal": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "-"
+    },
+    "Wyldegreen": {
+        "H-Antigen": "1,13,23",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "l,w"
+    },
+    "Yaba": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Yalding": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Yaounde": {
+        "H-Antigen": "1,4,12,27",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Yardley": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "1,6"
+    },
+    "Yarm": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,2"
+    },
+    "Yarrabah": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,7"
+    },
+    "Yeerongpilly": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "z6"
+    },
+    "Yehuda": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "-"
+    },
+    "Yekepa": {
+        "H-Antigen": "1,40",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Yellowknife": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Yenne": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,5"
+    },
+    "Yerba": {
+        "H-Antigen": "54",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "-"
+    },
+    "Yoff": {
+        "H-Antigen": "38",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "1,2"
+    },
+    "Yokoe": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "m,t",
+        "O-AntigenP2": "-"
+    },
+    "Yolo": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "[e,n,z15]"
+    },
+    "Yombesali": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "z6"
+    },
+    "Yopougon": {
+        "H-Antigen": "45",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "York": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Yoruba": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "l,w"
+    },
+    "Yovokome": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "1,5"
+    },
+    "Yundum": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Zadar": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "1,6"
+    },
+    "Zaiman": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "l,v",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Zaire": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "1,7"
+    },
+    "Zanzibar": {
+        "H-Antigen": "3,{10}{15}",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,5"
+    },
+    "Zaria": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Zega": {
+        "H-Antigen": "9,12",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z6"
+    },
+    "Zehlendorf": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,5"
+    },
+    "Zerifin": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,2"
+    },
+    "Zigong": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "l,w",
+        "O-AntigenP2": "1,5"
+    },
+    "Zinder": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "z29",
+        "O-AntigenP2": "-"
+    },
+    "Zongo": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,7"
+    },
+    "Zuilen": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "l,w"
+    },
+    "Zwickau": {
+        "H-Antigen": "16",
+        "O-AntigenP1": "r,i",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Viikkia": {
+        "H-Antigen": "1,9,12",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Bruxelles": {
+        "H-Antigen": "41",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "-"
+    },
+    "Forges": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "1,2"
+    },
+    "Trumersee": {
+        "H-Antigen": "1,6,14,25",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Pajala": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Chapuri": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "z6"
+    },
+    "Baltimore": {
+        "H-Antigen": "35",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "l,w"
+    },
+    "Landeskrone": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "-",
+        "O-AntigenP2": "1,6"
+    },
+    "Rosslyn": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,2"
+    },
+    "Kakikoka": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "z6"
+    },
+    "Parabiago": {
+        "H-Antigen": "28",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "l,w"
+    },
+    "Durance": {
+        "H-Antigen": "13,22",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "z6"
+    },
+    "Santaclara": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z35",
+        "O-AntigenP2": "1,5"
+    },
+    "Capetown": {
+        "H-Antigen": "3,15,34",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,6"
+    },
+    "Fortbend": {
+        "H-Antigen": "1,3,19",
+        "O-AntigenP1": "z41",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Mali": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Bergerac": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Salpetriere": {
+        "H-Antigen": "21",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Wembleypark": {
+        "H-Antigen": "17",
+        "O-AntigenP1": "g,m",
+        "O-AntigenP2": "-"
+    },
+    "Noho": {
+        "H-Antigen": "13,23",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,6"
+    },
+    "Ashford": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "z35"
+    },
+    "Elmdon": {
+        "H-Antigen": "51",
+        "O-AntigenP1": "i",
+        "O-AntigenP2": "1,2"
+    },
+    "Torbay": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "l,z28",
+        "O-AntigenP2": "1,5"
+    },
+    "Colchester": {
+        "H-Antigen": "8,20",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,6"
+    },
+    "Sandbanks": {
+        "H-Antigen": "6,8",
+        "O-AntigenP1": "k",
+        "O-AntigenP2": "1,7"
+    },
+    "Cork": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "y",
+        "O-AntigenP2": "1,2"
+    },
+    "Frimley": {
+        "H-Antigen": "39",
+        "O-AntigenP1": "r",
+        "O-AntigenP2": "1,5"
+    },
+    "Harrow": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "z10",
+        "O-AntigenP2": "1,7"
+    },
+    "Goodmayes": {
+        "H-Antigen": "44",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Poole": {
+        "H-Antigen": "9,46",
+        "O-AntigenP1": "a",
+        "O-AntigenP2": "1,6"
+    },
+    "Kingslynn": {
+        "H-Antigen": "3,10",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Maybush": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Carshalton": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "g,m,s",
+        "O-AntigenP2": "-"
+    },
+    "Stafford": {
+        "H-Antigen": "6,14,24",
+        "O-AntigenP1": "z",
+        "O-AntigenP2": "l,z13,z28"
+    },
+    "Coppettswood": {
+        "H-Antigen": "30",
+        "O-AntigenP1": "b",
+        "O-AntigenP2": "l,z13,z28"
+    },
+    "Welwyn": {
+        "H-Antigen": "11",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "e,n,z15"
+    },
+    "Zollikerberg": {
+        "H-Antigen": "6,7",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "1,5"
+    },
+    "Yverdon": {
+        "H-Antigen": "1,4,12",
+        "O-AntigenP1": "z38",
+        "O-AntigenP2": "1,5"
+    },
+    "Nuorikkala": {
+        "H-Antigen": "8",
+        "O-AntigenP1": "z4,z24",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Gostenhof": {
+        "H-Antigen": "1,42",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "z6"
+    },
+    "Owerri": {
+        "H-Antigen": "6,14,25",
+        "O-AntigenP1": "l,z13,z28",
+        "O-AntigenP2": "1,6"
+    },
+    "Braeswood": {
+        "H-Antigen": "47",
+        "O-AntigenP1": "c",
+        "O-AntigenP2": "z6"
+    },
+    "Saintes": {
+        "H-Antigen": "t13,23",
+        "O-AntigenP1": "d",
+        "O-AntigenP2": "e,n,x"
+    },
+    "Perrosguirec": {
+        "H-Antigen": "4,12",
+        "O-AntigenP1": "z4,z23",
+        "O-AntigenP2": "e,n,z15"
+    }
+}
