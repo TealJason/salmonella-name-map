@@ -18,7 +18,9 @@ def get_antigens_for_serovar(antigenic_formula):
     for serovar, antigens in serovar_antigen_dict.items():
         if antigens["O-Antigen"] == o_antigen and antigens["H-AntigenP1"] == h_antigen_p1 and antigens["H-AntigenP2"] == h_antigen_p2:
             serovar_name = serovar
-    
+        else:
+            serovar_name = None
+            
     if serovar_name is not None:
         result_dict = {
             "o_antigen":o_antigen,
@@ -27,6 +29,7 @@ def get_antigens_for_serovar(antigenic_formula):
             "serovar_name":serovar_name,
             "antigenic_formula":antigenic_formula
         }
+        
     else:
         result_dict = {
             "o_antigen":"Unable to find match in database",
