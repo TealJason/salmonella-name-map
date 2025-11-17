@@ -15,7 +15,7 @@
       font-family: Arial, sans-serif;
     }
 
-    form, h3, p, h1{
+    form,  p, h1,h2{
       text-align: center;
     }
 
@@ -79,13 +79,14 @@
   <a href="{% url 'antigen_finder' %}"><button>Antigen Formula Finder</button></a>
   <a href="{% url 'reverse_antigen_lookup' %}"><button>Formula to Antigen Lookup</button></a>
 </nav>
-  <h1 style="font-size: 60px;position:absolute;top:30px">Salmonella Antigen to Serovar Lookup</h1>
+<h1 style="font-size: 60px; margin-top: 100px;">Salmonella Antigen to Serovar Lookup</h1>
+<h2 style="font-size: 20px; margin-bottom: 40px;">Search for a serovar given an antigenic formula!</h2>
 
-  <form method="POST" action="{% url 'reverse_antigen_lookup' %}">
+<form method="POST" action="{% url 'reverse_antigen_lookup' %}">
     {% csrf_token %}
     <input type="text" name="antigenic_formula" placeholder="Enter Formula e.g.'18:z4,z23:z64' "style="font-size:40px;"><br>
     <button type="submit" style="font-size:40px;">Search</button>
-  </form>
+</form>
 
   {% if searched %}
     {% if result %}
