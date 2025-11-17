@@ -52,7 +52,7 @@
         }
         
         h2 {
-            font-size: 30px;
+            font-size: 25px;
         }
 
         textarea{
@@ -64,6 +64,14 @@
             outline: none;
             border: none;
             background: transparent;
+        }
+
+        .about-text {
+            font-size: 20px;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            white-space: pre-wrap;  /* preserves line breaks */
         }
 
     </style>
@@ -81,7 +89,7 @@
             and can also be used for finding the distance between a given location and the closest place in which a salmonella serovar has been named after!</h2>
     <br>
 
-     <textarea rows="100" cols="150" readonly style="font-size: 20px;text-align:center;">
+<div class="about-text">
         Salmonella is a gram-negative genus of bacteria wihthin the family Enterobacteriaceae.
         It includes a range of pathogens that infect a range of hosts which causes significant diorreal burden and makes it a pathogen of interest in a one health contex.
 
@@ -98,11 +106,15 @@
         These serovars are represented as an antigentic formula like so 6,7,14:r:1,5 where the : deliniates between the antigens in question. 
         so in the previous example this salmonella is positive for O antigens 6,7, and 14 and in its flagella is positive for antigens r if in first phase or antigens 1,5.
         For ease of use these antigenic formulas are then traditioanlly named after where they were first isolated, e.g Salmonella Oslo.
+</div>
+     {% load static %}
+    <img src="{% static 'current-classification-of-Salmonella-enterica-Derek-brown-cut.png' %}" height="750px" width="900px">
 
-        The data for this site is taken from here:
-        https://www.researchgate.net/publication/310673247_Antigenic_formulae_of_the_salmonella_servovars_Who_collab
-     </textarea>
-    Suspicion
+    <h4>
+    The data for this site is taken from here:
+    https://www.researchgate.net/publication/310673247_Antigenic_formulae_of_the_salmonella_servovars_Who_collab
+<h4>
+    
     </div>
 </body>
 </html>
