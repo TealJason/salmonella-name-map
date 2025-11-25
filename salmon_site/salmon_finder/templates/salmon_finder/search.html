@@ -122,21 +122,22 @@ body {
 </form>
 
   {% if result %}
-    <hr>
-    <textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
-Input Coordinates: {{ result.input_coordinates }}
-Closest Serovar: {{ result.closest_serovar }}
-Distance (km): {{ result.distance_km }}
-Match Coordinates: {{ result.match_coordinates }}
+ 
+<hr>
+<textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
+  Input Coordinates: {{ result.input_coordinates }}
+  Closest Serovar: {{ result.closest_serovar }}
+  Distance (km): {{ result.distance_km }}
+  Match Coordinates: {{ result.match_coordinates }}
 
-Antigenic formula:
-  O: {{ result.antigens.O }}
-  H1: {{ result.antigens.H1 }}
+  Antigenic formula:
+    O: {{ result.antigens.O }}
+    H1: {{ result.antigens.H1 }}
   H2: {{ result.antigens.H2 }}
-    </textarea>
-  {% endif %}
+</textarea>
+  
 
-<div id="map" style="width: 500px; height: 400px;"></div>
+<div id="map" style="width: 600px; height: 500px;"></div>
 
 <script>
     mapboxgl.accessToken = "{{ MAPBOX_TOKEN }}";
@@ -148,13 +149,20 @@ Antigenic formula:
         center: [30, 15] // center the map on this longitude and latitude
     });
 
+    const marker1 = new mapboxgl.Marker()
+        .setLngLat([12.554729, 55.70651])
+        .addTo(map);
+
+
     map.addControl(new mapboxgl.NavigationControl());
     map.scrollZoom.disable();
     map.on('style.load', () => {
         map.setFog({}); // Set the default atmosphere style
     });
 </script>
-  
+
+{% endif %}
+
 <p style="margin-top: 40px; margin-bottom: 40px;">
 <a href="{% url 'index' %}">Back to Home</a>
 </p>
