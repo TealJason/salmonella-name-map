@@ -136,10 +136,10 @@ Antigenic formula:
     </textarea>
   {% endif %}
 
-<div id="map" style="width: 400px; height: 300px;"></div>
+<div id="map" style="width: 500px; height: 400px;"></div>
 
 <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiamFzb250ZWFsIiwiYSI6ImNtZ3o5ZWk5ZDFwbHIyd3MyZGJrY3pzZzAifQ.Mt0-_3Tyqby5NKzw-N4-eg';
+    mapboxgl.accessToken = "{{ MAPBOX_TOKEN }}";
     const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/standard', // Use the standard style for the map
