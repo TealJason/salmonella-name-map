@@ -12,11 +12,18 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os 
+import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'serovar_finder', 'media')
+
+# Initialise environment reader
+env = environ.Env()
+environ.Env.read_env(os.path.join(BASE_DIR, "salmon_site", "api_map_box.env"))
+
+MAPBOX_API_KEY = env("MAPBOX_API_KEY")
 
 # settings.py
 

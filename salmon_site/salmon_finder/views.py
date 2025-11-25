@@ -20,3 +20,11 @@ def find_serovar(request):
         # Pass result data to the same search template
         status = 200 if "error" not in result else 400
         return render(request, "salmon_finder/search.html", {"result": result, "mapbox_image": mapbox_image})
+    
+from django.conf import settings
+from django.shortcuts import render
+
+def map_view(request):
+    return render(request, "map.html", {
+        "MAPBOX_TOKEN": settings.MAPBOX_API_KEY
+    })

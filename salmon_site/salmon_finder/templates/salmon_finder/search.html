@@ -5,9 +5,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Find Closest Serovar</title>
-  <script src='https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.css' rel='stylesheet' />
-</head>
+
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.css" rel="stylesheet"/>
 
 <style>
 body {
@@ -87,8 +87,10 @@ body {
         }
 
 </style>
-<body>
+</head>
 
+<body>
+  
 <nav>
   <a href="{% url 'serovar_finder' %}"><button>Serovar Finder</button></a>
   <a href="{% url 'antigen_finder' %}"><button>Antigen Formula Finder</button></a>
@@ -134,18 +136,21 @@ Antigenic formula:
     </textarea>
   {% endif %}
 
-  <div id='map' style='width: 400px; height: 300px;'></div>
-  {% load static %}
-  <script>
-  mapboxgl.accessToken = '{% static .api_map_box.key %}';
-  const map = new mapboxgl.Map({
-    container: 'map', // container ID
-    style: 'mapbox://styles/mapbox/streets-v12', // style URL
-    center: [-30.5, 5], // starting position [lng, lat]
-    zoom: 9, // starting zoom
-  });
-  </script>
+   <div id="map" style="width: 400px; height: 300px;"></div>
 
+   <script>
+   document.addEventListener("DOMContentLoaded", function () {
+       mapboxgl.accessToken = "{{ MAPBOX_TOKEN }}";
+
+       const map = new mapboxgl.Map({
+         container: "map",
+         style: "mapbox://styles/mapbox/streets-v12",
+         center: [-30.5, 5],
+         zoom: 9
+       });
+   });
+   </script>
+  
 <p style="margin-top: 40px; margin-bottom: 40px;">
 <a href="{% url 'index' %}">Back to Home</a>
 </p>
