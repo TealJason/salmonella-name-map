@@ -5,7 +5,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Find Closest Serovar</title>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.css' rel='stylesheet' />
 </head>
+
 <style>
 body {
       display: flex;
@@ -113,12 +116,8 @@ body {
     <label style="font-size:30px;">Place name:</label>
     <input type="text" name="place_name" placeholder="e.g. London"style="font-size:35px;"><br><br>
 </div>
-
   <button type="submit"style="width:400px;height:60px;font-size:30px;">Search</button>
-  <br>
-  <br>
-  <label>Tick to get an image of the location:</label> <input type="checkbox" name="get_image"></button>
-  </form>
+</form>
 
   {% if result %}
     <hr>
@@ -135,10 +134,18 @@ Antigenic formula:
     </textarea>
   {% endif %}
 
-{% if mapbox_image %}
-    <h3>Location Map:</h3>
-    <img src="data:image/png;base64,{{ mapbox_image|b64encode }}" alt="Map of location">
-{% endif %}
+  <div id='map' style='width: 400px; height: 300px;'></div>
+  {% load static %}
+  <script>
+  mapboxgl.accessToken = '{% static .api_map_box.key %}';
+  const map = new mapboxgl.Map({
+    container: 'map', // container ID
+    style: 'mapbox://styles/mapbox/streets-v12', // style URL
+    center: [-30.5, 5], // starting position [lng, lat]
+    zoom: 9, // starting zoom
+  });
+  </script>
+
 <p style="margin-top: 40px; margin-bottom: 40px;">
 <a href="{% url 'index' %}">Back to Home</a>
 </p>
