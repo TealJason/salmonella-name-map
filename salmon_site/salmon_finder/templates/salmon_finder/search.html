@@ -121,7 +121,7 @@ body {
   <button type="submit"style="width:400px;height:60px;font-size:30px;">Search</button>
 </form>
 
-  {% if result %}
+{% if result %}
  
 <hr>
 <textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
@@ -141,16 +141,19 @@ body {
 
 <script>
     mapboxgl.accessToken = "{{ MAPBOX_TOKEN }}";
+    const matchCoords = [{{ result.match_coordinates.1 }}, {{ result.match_coordinates.0 }}];
+
     const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/standard', // Use the standard style for the map
         projection: 'globe', // display the map as a globe
-        zoom: 1, // initial zoom level, 0 is the world view, higher values zoom in
-        center: [30, 15] // center the map on this longitude and latitude
+        zoom: 5, // initial zoom level, 0 is the world view, higher values zoom in
+        center: [{{ result.match_coordinates.1 }},{{ result.match_coordinates.0 }}] // center the map on this longitude and latitude 
     });
 
+    new mapboxgl.Marker().setLngLat(matchCoords).addTo(map);
     const marker1 = new mapboxgl.Marker()
-        .setLngLat([12.554729, 55.70651])
+        .setLngLat(matchCoords)
         .addTo(map);
 
 
