@@ -102,8 +102,11 @@ I need to turn an above styled JSON into a GeoJSON with a format similar to this
 import json
 
 json_file = "serovar_name_to_coordinates.json"
+antigen_file = "serovar_name_antigen.json"
+
 coordinate_dict = json.load(open(json_file))
-geo_json_file = "/home/phe.gov.uk/jason.beard/Desktop/can/projects/salmon_map/project/salmonella-name-map/salmon_site/salmon_explorer/data/serovar_coordinates.geojson"
+antigen_dict = json.load(open(antigen_file))
+geo_json_file = "/mnt/j/dev/python-root/salmonella-name-map/salmon_site/salmon_explorer/data/serovar_coordinates.geojson"
 
 for key in coordinate_dict:
     country = coordinate_dict[key]
@@ -118,11 +121,13 @@ for key in coordinate_dict:
             lat = coords[0]
             lon = coords[1]
             
+            antigenic_formula = '["' + antigen_dict[serovar]["O-Antigen"] + ":" + antigen_dict[serovar]["H-AntigenP1"] + ":" + antigen_dict[serovar]["H-AntigenP2"] + '"]'
+
             geojson_f.write('{\n')
             geojson_f.write('"type": "Feature",\n')
             geojson_f.write('"properties": {\n')
             geojson_f.write(f'"Serovar": "{serovar}",\n')
-            geojson_f.write('"Antigenic Formula": "tbd"\n')
+            geojson_f.write(f'"Antigenic Formula": {antigenic_formula}\n')
             geojson_f.write('},\n')
             geojson_f.write('"geometry": {\n')
             geojson_f.write('"coordinates": \n')
