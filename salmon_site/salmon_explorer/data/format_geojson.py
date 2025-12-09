@@ -126,7 +126,7 @@ for key in coordinate_dict:
             geojson_f.write('},\n')
             geojson_f.write('"geometry": {\n')
             geojson_f.write('"coordinates": \n')
-            geojson_f.write(f'[{lat},{lon}],\n')
+            geojson_f.write(f'[{lon},{lat}],\n')
             geojson_f.write('"type": "Point"\n},\n')
             geojson_f.write(f'"id": {idx}\n')
             geojson_f.write('},\n')

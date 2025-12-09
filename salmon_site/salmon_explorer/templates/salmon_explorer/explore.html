@@ -2,12 +2,16 @@
 {% load image_filters %}
 
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Find Closest Serovar</title>
-
-  <script src="https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.js"></script>
-  <link href="https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.css" rel="stylesheet"/>
+  <meta charset="utf-8" />
+  <title>Demo: Add custom markers in Mapbox GL JS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.14.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.14.0/mapbox-gl.css"rel="stylesheet"/>
 
 <style>
 body {
@@ -19,33 +23,12 @@ body {
       font-family: Arial, sans-serif;
     }
 
-    form, textarea, h3, p,h1,h2 {
-      text-align: center;
-    }
-
     textarea {
       text-align: center;
       resize: none;
       outline: none;
       border: none;
       background: transparent;
-    }
-
-    .form-row {
-      display: flex;
-      align-items: center;
-      margin-bottom: 10px;
-    }
-
-    .form-row label {
-      width: 40px; /* fix width for all labels */
-      text-align: right; /*  align text to the right */
-      margin-right: 150px; /* space between label and input */
-    }
-
-    input, button {
-      padding: 5px 10px;
-      margin: 5px 0;
     }
 
     hr {
@@ -89,14 +72,14 @@ body {
         .marker {
             background-image: url('https://docs.mapbox.com/help/demos/custom-markers-gl-js/mapbox-icon.png');
             background-size: cover;
-            width: 50px;
-            height: 50px;
+            width: 15px;
+            height: 15px;
             border-radius: 50%;
             cursor: pointer;
         }
         
         .mapboxgl-popup {
-            max-width: 200px;
+            max-width: 100px;
           }
 
         .mapboxgl-popup-content {
@@ -120,47 +103,40 @@ body {
 <h2 style="font-size: 20px; margin-bottom: 40px;">Explore the globe for Salmonella serovars!</h2>
 <br>
 
-<form method="POST" action="{% url 'serovar_finder' %}">
-
-  
 
 <div id="map" style="width: 900px; height: 900px;"></div>
 
 <script>
   mapboxgl.accessToken = "{{ MAPBOX_TOKEN }}";
 
- const geojson = {{ geoJson_data|safe }};
+  const geojson = {{ geoJson_data|safe }};
 
- const map = new mapboxgl.Map({
+  const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/light-v11',
-        center: [30, 37.8],
+        center: [-96, 37.8],
         zoom: 3
       });
-    for (const feature of geojson.features) {
 
-      // create a HTML element for each feature
-      const el = document.createElement('div');
-      el.className = 'marker';
+      // add markers to map
+      for (const feature of geojson.features) {
+        // create a HTML element for each feature
+        const el = document.createElement('div');
+        el.className = 'marker';
 
-      new mapboxgl.Marker().setLngLat(feature.geometry.coordinates).addTo(map);  // Replace this line with code from step 7-2
-
-      new mapboxgl.Marker(el)
-        .setLngLat(feature.geometry.coordinates)
-        .setPopup(
-          new mapboxgl.Popup({ offset: 25 }) // add popups
-          .setHTML(
-          `<h3>${feature.properties.title}</h3><p>${feature.properties.description}</p>`)).addTo(map);
-    }
-
-    map.addControl(new mapboxgl.NavigationControl());
-    map.scrollZoom.disable();
-    map.on('style.load', () => {
-        map.setFog({}); // Set the default atmosphere style
-    });
-
+        // make a marker for each feature and add it to the map
+        new mapboxgl.Marker(el)
+          .setLngLat(feature.geometry.coordinates)
+          .setPopup(
+            new mapboxgl.Popup({ offset: 25 }) // add popups
+              .setHTML(
+                `<h3>${feature.properties.Serovar}</h3><p>${feature.properties.Antigenic_Formula}</p>`
+              )
+          )
+          .addTo(map);
+      }
 </script>
-
+</body>
 
 <p style="margin-top: 40px; margin-bottom: 40px;">
 <a href="{% url 'index' %}">Back to Home</a>
