@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'salmon_finder',
     "antigen_finder",
-    "reverse_antigen_lookup"
+    "reverse_antigen_lookup",
+    "salmon_explorer"
 ]
 
 MIDDLEWARE = [

@@ -86,6 +86,24 @@ body {
             background-color: #004d40;
         }
 
+        .marker {
+            background-image: url('https://docs.mapbox.com/help/demos/custom-markers-gl-js/mapbox-icon.png');
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        .mapboxgl-popup {
+            max-width: 200px;
+          }
+
+        .mapboxgl-popup-content {
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+          }
+
 </style>
 </head>
 
@@ -98,74 +116,51 @@ body {
   <a href="{% url 'serovar_explorer' %}"><button>Explore serovar locations</button></a>
 </nav>
 
-<h1 style="font-size: 60px; margin-top: 100px;">Salmonella Serovar Finder</h1>
-<h2 style="font-size: 20px; margin-bottom: 40px;">Search for the closest location named after a Salmonella serovar!</h2>
+<h1 style="font-size: 60px; margin-top: 100px;">Salmonella Serovar Explorer</h1>
+<h2 style="font-size: 20px; margin-bottom: 40px;">Explore the globe for Salmonella serovars!</h2>
 <br>
 
 <form method="POST" action="{% url 'serovar_finder' %}">
-{% csrf_token %}
 
-<div class="form-row"> 
-    <label style="font-size:30px;">Latitude:</label>
-    <input type="text" name="lat" placeholder="e.g. 51.5072" style="font-size:35px;"><br><br>
-</div>
-
-<div class="form-row">
-    <label style="font-size:30px;">Longitude:</label>
-    <input type="text" name="long" placeholder="e.g. -0.1276"style="font-size:35px;"><br><br>
-</div>
-
-<div class="form-row">
-    <label style="font-size:30px;">Place name:</label>
-    <input type="text" name="place_name" placeholder="e.g. London"style="font-size:35px;"><br><br>
-</div>
-  <button type="submit"style="width:400px;height:60px;font-size:30px;">Search</button>
-</form>
-
-{% if result %}
- 
-<hr>
-<textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
-  Input Coordinates: {{ result.input_coordinates }}
-  Closest Serovar: {{ result.closest_serovar }}
-  Distance (km): {{ result.distance_km }}
-  Match Coordinates: {{ result.match_coordinates }}
-
-  Antigenic formula:
-    O: {{ result.antigens.O }}
-    H1: {{ result.antigens.H1 }}
-  H2: {{ result.antigens.H2 }}
-</textarea>
   
 
-<div id="map" style="width: 600px; height: 500px;"></div>
+<div id="map" style="width: 900px; height: 900px;"></div>
 
 <script>
-    mapboxgl.accessToken = "{{ MAPBOX_TOKEN }}";
-    const matchCoords = [{{ result.match_coordinates.1 }}, {{ result.match_coordinates.0 }}];
+  mapboxgl.accessToken = "{{ MAPBOX_TOKEN }}";
 
-    const map = new mapboxgl.Map({
+ const geojson = {{ geoJson_data|safe }};
+
+ const map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/standard', // Use the standard style for the map
-        projection: 'globe', // display the map as a globe
-        zoom: 5, // initial zoom level, 0 is the world view, higher values zoom in
-        center: [{{ result.match_coordinates.1 }},{{ result.match_coordinates.0 }}] // center the map on this longitude and latitude 
-    });
+        style: 'mapbox://styles/mapbox/light-v11',
+        center: [30, 37.8],
+        zoom: 3
+      });
+    for (const feature of geojson.features) {
 
-    new mapboxgl.Marker().setLngLat(matchCoords).addTo(map);
-    const marker1 = new mapboxgl.Marker()
-        .setLngLat(matchCoords)
-        .addTo(map);
+      // create a HTML element for each feature
+      const el = document.createElement('div');
+      el.className = 'marker';
 
+      new mapboxgl.Marker().setLngLat(feature.geometry.coordinates).addTo(map);  // Replace this line with code from step 7-2
+
+      new mapboxgl.Marker(el)
+        .setLngLat(feature.geometry.coordinates)
+        .setPopup(
+          new mapboxgl.Popup({ offset: 25 }) // add popups
+          .setHTML(
+          `<h3>${feature.properties.title}</h3><p>${feature.properties.description}</p>`)).addTo(map);
+    }
 
     map.addControl(new mapboxgl.NavigationControl());
     map.scrollZoom.disable();
     map.on('style.load', () => {
         map.setFog({}); // Set the default atmosphere style
     });
+
 </script>
 
-{% endif %}
 
 <p style="margin-top: 40px; margin-bottom: 40px;">
 <a href="{% url 'index' %}">Back to Home</a>

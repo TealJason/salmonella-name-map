@@ -25,5 +25,5 @@ def find_serovar(request):
         return render(request, "salmon_finder/search.html", {
             "result": result,
             "mapbox_image": mapbox_image,
-            "MAPBOX_TOKEN": settings.MAPBOX_API_KEY   # <-- YOU MUST ADD THIS
+            "MAPBOX_TOKEN": settings.MAPBOX_API_KEY   
         })
