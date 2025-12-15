@@ -100,6 +100,7 @@ body {
 
 <h1 style="font-size: 60px; margin-top: 100px;">Salmonella Serovar Explorer</h1>
 <h2 style="font-size: 20px; margin-bottom: 40px;">Explore the globe for Salmonella serovars!</h2>
+<h3 style="font-size: 20px; margin-bottom: 40px;">Click on them to see there antigenic formula!</h3>
 <br>
 
 <div id="map" style="width: 900px; height: 900px;"></div>
@@ -136,11 +137,14 @@ body {
           .addTo(map);
       }
 </script>
-
-<div id="search-for-point">
-  <form method="POST" action="{% url 'serovar_explorer' %}">
+<br>
+<h1>
+<div id="search_for_point">
+  <form id="search_form" method="POST" action="{% url 'serovar_explorer' %}">
     {% csrf_token %}
     
+    Enter a location, using the open street map databse we will show you the closest Salmonella serovar location on the globe!
+    <br>
     <div class="form-row"> 
         <label style="font-size:30px;">Latitude:</label>
         <input type="text" name="lat" placeholder="e.g. 51.5072" style="font-size:35px;"><br><br>
@@ -157,58 +161,39 @@ body {
     </div>
       <button type="submit"style="width:400px;height:60px;font-size:30px;">Search</button>
     </form>
-    
-    {% if result %}
-    
-    <hr>
-    <textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
-      Input Coordinates: {{ result.input_coordinates }}
-      Closest Serovar: {{ result.closest_serovar }}
-      Distance (km): {{ result.distance_km }}
-      Match Coordinates: {{ result.match_coordinates }}
-    
-      Antigenic formula:
-        O: {{ result.antigens.O }}
-        H1: {{ result.antigens.H1 }}
-      H2: {{ result.antigens.H2 }}
-    </textarea>
+</div>
 
-    <script>
-      mapboxgl.accessToken = "{{ MAPBOX_TOKEN }}";
-    
-      const regeojson = {{ geoJson_data|safe }};
-    
-      const centre_map = new mapboxgl.Map({
-            container: 'centre_map',
-            style: 'mapbox://styles/mapbox/standard',
-            center: [{{ result.match_coordinates }}],
-            zoom: 1
-          });
-    
-          centre_map.addControl(new mapboxgl.FullscreenControl());
-    
-          // add markers to map
-          for (const feature of geojson.features) {
-            // create a HTML element for each feature
-            const el = document.createElement('div');
-            el.className = 'marker';
-    
-            // make a marker for each feature and add it to the map
-            new mapboxgl.Marker(el)
-              .setLngLat(feature.geometry.coordinates)
-              .setPopup(
-                new mapboxgl.Popup({ offset: 25 }) // add popups
-                  .setHTML(
-                    `<h3>${feature.properties.Serovar}</h3><p>${feature.properties.Antigenic_Formula}</p>`
-                  )
-              )
-              .addTo(centre_map);
-          }
-    </script>
-
-    {% endif %}
+  <div id="result_div" style="display: flex; gap: 20px; justify-content: center;"> 
+    <!-- Results will be injected here -->
+  </div>
+  
+  </h2>
+  <script>
+      const form = document.getElementById("search_form"); // the form element we monitor for the posts 
+  
+      form.addEventListener("submit", function(e) {
+          e.preventDefault(); // stop full page reload
+  
+          const formData = new FormData(form);
+  
+          fetch(form.action, {
+              method: "POST",
+              body: formData,
+              headers: {
+                  "X-CSRFToken": formData.get("csrfmiddlewaretoken"),
+                  "X-Requested-With": "XMLHttpRequest" // mark as AJAX
+              }
+          })
+          .then(response => response.text())
+          .then(html => {
+              document.getElementById("result_div").innerHTML = html; // where we injec the resutls
+          })
+          .catch(err => console.error("Error fetching result:", err));
+      });
+  </script>
 
 </div>
+
 </body>
 
 <p style="margin-top: 40px; margin-bottom: 40px;">

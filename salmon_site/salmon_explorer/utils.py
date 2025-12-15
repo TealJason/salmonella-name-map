@@ -136,10 +136,10 @@ def run_lookup_logic(lat, long, place_name,get_image, verbose=False):
     # Get antigenic info
     o_antigen, h_antigen_p1, h_antigen_p2 = get_antigens_for_serovar(closest_name)
 
-    if get_image:
-        mapbox_image = make_mapbox_image(closest_coordinates)
-    else:
-        mapbox_image = None
+#    if get_image:
+#        mapbox_image = make_mapbox_image(closest_coordinates)
+#    else:
+#        mapbox_image = None
         
     # Return results 
     return {
@@ -152,4 +152,4 @@ def run_lookup_logic(lat, long, place_name,get_image, verbose=False):
             "H1": h_antigen_p1,
             "H2": h_antigen_p2,
         },
-    }, mapbox_image
+    }
