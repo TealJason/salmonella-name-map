@@ -92,15 +92,20 @@
     {% if result %}
       <br>
       <hr>
-      <textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
-The given formula matches serovar: {{ result.serovar_name }}
+      <textarea rows="25" cols="500" readonly style="font-size: 25px;text-align:center;">
+        The given formula:'{{ result.antigenic_formula }}'
+        Has no matches in the database.
+
+        Please check the formula is correct, use colons : to deliminate O:H1:H2 antigens.
+        Also use a - where a phase isn't present and squares brackets [], for optional antigens.
+        ParatyphiB for example can be found with 1,4,[5],12:b:1,2
+        Dublin can be found with 1,9,12[Vi]:g,p:-
+
       </textarea>
     {% else %}
       <hr>
       <textarea rows="10" cols="50" readonly style="font-size: 30px;text-align:center;">
-Unable to find serovar based on the given formula sorry! 
-Please check the formula is correct, use : to deliminate O:Hp1:Hp2 antigens, using - where a phase isn't present, and squares brackets, [4], for optional antigens.
-ParatyphiB for example can be found with 1,4,[5],12:b:1,2
+
       </textarea>
     {% endif %}
   {% endif %}

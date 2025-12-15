@@ -1,7 +1,5 @@
 # Create your views here.
-import sys
 import json
-import argparse 
 import os 
 
 def get_antigens_for_serovar(antigenic_formula):  

@@ -142,8 +142,9 @@ body {
 <div id="search_for_point">
   <form id="search_form" method="POST" action="{% url 'serovar_explorer' %}">
     {% csrf_token %}
-    
-    Enter a location, using the open street map databse we will show you the closest Salmonella serovar location on the globe!
+    <br>
+    Enter a location to get information on the closest Salmonella serovar location!
+    <br>
     <br>
     <div class="form-row"> 
         <label style="font-size:30px;">Latitude:</label>
