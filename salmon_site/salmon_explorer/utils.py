@@ -1,11 +1,12 @@
 # Create your views here.
 import os
 import json
-from geopy import distance
-from geopy.geocoders import Nominatim
+from geopy import distance # type: ignore
+from geopy.geocoders import Nominatim # type: ignore
 import sys
 import subprocess
-from django.conf import settings
+from django.conf import settings # type: ignore
+
 import requests # type: ignore
 
 def make_mapbox_image(coordinate):

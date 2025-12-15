@@ -1,7 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render # type: ignore
 import os
-from django.conf import settings
-from django.shortcuts import render
+from django.conf import settings # type: ignore
+from django.shortcuts import render # type: ignore
 import json
 from . utils import run_lookup_logic
 
