@@ -1,6 +1,5 @@
 # Salmonella-map
 
-TEST TEST TEST
 
 A repo for creating a way to find the closet city/place to you where a salmonella serovar/type is named after.
 
@@ -19,8 +18,8 @@ I think most are correct but some tedious validation still needs to be done
 
 Currently it is very basic, there is a command line tool you could use to enter in a set of coordinates or a place name which will then get the cloeset location named after a salmonella location to the input.
 
-There is also the begining of a website implmentation of this command line tool currently setup in dajngo and only configured for running locally
-
+just messing around with this this code is being hosted here atm
+https://jasontealbeard.pythonanywhere.com/
 ## Example usages for the command line version
 Look for the cloest servoar to the city Baden-Baden  
 ```python3 salmon_map.py --place_name Baden-Baden``` 
@@ -30,3 +29,4 @@ Look for the closet servoar to a set of input coordinates and enable a verbose p
 
 Look for the cloest serovar to monaco and generate a static image of the cloest city (requires api key)  
 ```python3 salmon_map.py --place_name singapore --get_image```
+
